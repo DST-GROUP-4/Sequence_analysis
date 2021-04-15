@@ -1,0 +1,910 @@
+ls: cannot access '/home/fuqc/1/Hep3B2-1-7_FRAS190069749-1a/*/*/*snp.vcf': No such file or directory
+cat: /home/fuqc/1/tmp/Hep3B2-1-7_FRAS190069749-1a-merge.txt.notice.log: No such file or directory
+ for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 15% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 20% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 25% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 30% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 35% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 40% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 45% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 50% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 55% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 60% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 65% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 70% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 75% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 80% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 85% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 90% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 95% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Approx 100% complete for Hep3B2-1-7_FRAS190069749-1a_1.fq.gz
+Started analysis of Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 5% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 10% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 15% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 20% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 25% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 30% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 35% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 40% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 45% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 50% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 55% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 60% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 65% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 70% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 75% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 80% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 85% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 90% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 95% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+Approx 100% complete for Hep3B2-1-7_FRAS190069749-1a_2.fq.gz
+from /home/fuqc/1/tmp/Hep3B2-1-7_FRAS190069749-1a-hisat.txt.err
+INFO	2021-03-31 21:59:43	QualityScoreDistribution	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    QualityScoreDistribution -INPUT ../Hep3B2-1-7_FRAS190069749-1a.hisat.sam -OUTPUT qualityscores.txt -CHART qualityscores.chart
+**********
+
+
+INFO	2021-03-31 21:59:44	RExecutor	Executing R script via command: Rscript /tmp/script16607244529962170501.R
+INFO	2021-03-31 21:59:44	ProcessExecutor	[1] "Checking if R is installed"
+21:59:45.013 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/fuqc/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Mar 31 21:59:45 CST 2021] QualityScoreDistribution CHART_OUTPUT=qualityscores.chart INPUT=../Hep3B2-1-7_FRAS190069749-1a.hisat.sam OUTPUT=qualityscores.txt    ALIGNED_READS_ONLY=false PF_READS_ONLY=false INCLUDE_NO_CALLS=false ASSUME_SORTED=true STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Wed Mar 31 21:59:45 CST 2021] Executing as fuqc@yuzj-pc on Linux 5.10.0-5-amd64 amd64; OpenJDK 64-Bit Server VM 11.0.11-ea+4-post-Debian-1; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.25.1
+WARNING	2021-03-31 21:59:45	SinglePassSamProgram	File reports sort order 'unsorted', assuming it's coordinate sorted anyway.
+INFO	2021-03-31 21:59:45	SinglePassSamProgram	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2021-03-31 21:59:52	SinglePassSamProgram	Processed     1,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    6s.  Last read position: chr3:49,130,247.  Last read name: A00821:110:HMVCMDSXX:2:1120:29948:30843
+INFO	2021-03-31 21:59:58	SinglePassSamProgram	Processed     2,000,000 records.  Elapsed time: 00:00:13s.  Time for last 1,000,000:    6s.  Last read position: chr18:74,501,446.  Last read name: A00821:110:HMVCMDSXX:2:1140:30969:27164
+INFO	2021-03-31 22:00:09	SinglePassSamProgram	Processed     3,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:   10s.  Last read position: chr17:7,576,664.  Last read name: A00821:110:HMVCMDSXX:2:1160:26133:25833
+INFO	2021-03-31 22:00:16	SinglePassSamProgram	Processed     4,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:    6s.  Last read position: chrM:11,813.  Last read name: A00821:110:HMVCMDSXX:2:1203:16794:1297
+INFO	2021-03-31 22:00:25	SinglePassSamProgram	Processed     5,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    9s.  Last read position: chr3:189,027,433.  Last read name: A00821:110:HMVCMDSXX:2:1222:24189:21527
+INFO	2021-03-31 22:00:32	SinglePassSamProgram	Processed     6,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:    6s.  Last read position: chr1:16,650,104.  Last read name: A00821:110:HMVCMDSXX:2:1242:28094:13761
+INFO	2021-03-31 22:00:39	SinglePassSamProgram	Processed     7,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    6s.  Last read position: chr19:18,588,816.  Last read name: A00821:110:HMVCMDSXX:2:1262:24487:15468
+INFO	2021-03-31 22:00:45	SinglePassSamProgram	Processed     8,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    6s.  Last read position: chr11:2,129,578.  Last read name: A00821:110:HMVCMDSXX:2:1304:6533:24831
+INFO	2021-03-31 22:00:52	SinglePassSamProgram	Processed     9,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    6s.  Last read position: chrM:1,686.  Last read name: A00821:110:HMVCMDSXX:2:1323:13241:36886
+INFO	2021-03-31 22:00:58	SinglePassSamProgram	Processed    10,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:    6s.  Last read position: chr6:30,067,340.  Last read name: A00821:110:HMVCMDSXX:2:1343:25771:22670
+INFO	2021-03-31 22:01:05	SinglePassSamProgram	Processed    11,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:    6s.  Last read position: chr22_KI270733v1_random:126,596.  Last read name: A00821:110:HMVCMDSXX:2:1363:16477:17785
+INFO	2021-03-31 22:01:12	SinglePassSamProgram	Processed    12,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:    6s.  Last read position: chr19:48,624,869.  Last read name: A00821:110:HMVCMDSXX:2:1405:25093:19241
+INFO	2021-03-31 22:01:18	SinglePassSamProgram	Processed    13,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    6s.  Last read position: chr2:216,499,346.  Last read name: A00821:110:HMVCMDSXX:2:1424:23900:34084
+INFO	2021-03-31 22:01:25	SinglePassSamProgram	Processed    14,000,000 records.  Elapsed time: 00:01:40s.  Time for last 1,000,000:    6s.  Last read position: chr22_KI270733v1_random:134,666.  Last read name: A00821:110:HMVCMDSXX:2:1444:27462:19241
+INFO	2021-03-31 22:01:32	SinglePassSamProgram	Processed    15,000,000 records.  Elapsed time: 00:01:46s.  Time for last 1,000,000:    6s.  Last read position: chr11_KI270721v1_random:52,100.  Last read name: A00821:110:HMVCMDSXX:2:1464:22842:14622
+INFO	2021-03-31 22:01:38	SinglePassSamProgram	Processed    16,000,000 records.  Elapsed time: 00:01:53s.  Time for last 1,000,000:    6s.  Last read position: chr17:82,095,458.  Last read name: A00821:110:HMVCMDSXX:2:1506:7355:15327
+INFO	2021-03-31 22:01:45	SinglePassSamProgram	Processed    17,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    6s.  Last read position: chr4:1,250,746.  Last read name: A00821:110:HMVCMDSXX:2:1525:17607:27853
+INFO	2021-03-31 22:01:52	SinglePassSamProgram	Processed    18,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    6s.  Last read position: chr17:35,710,272.  Last read name: A00821:110:HMVCMDSXX:2:1545:27254:18129
+INFO	2021-03-31 22:01:58	SinglePassSamProgram	Processed    19,000,000 records.  Elapsed time: 00:02:13s.  Time for last 1,000,000:    6s.  Last read position: chr1:160,224,472.  Last read name: A00821:110:HMVCMDSXX:2:1565:9959:13855
+INFO	2021-03-31 22:02:05	SinglePassSamProgram	Processed    20,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    6s.  Last read position: chr4:73,408,805.  Last read name: A00821:110:HMVCMDSXX:2:1607:13006:20008
+INFO	2021-03-31 22:02:11	SinglePassSamProgram	Processed    21,000,000 records.  Elapsed time: 00:02:26s.  Time for last 1,000,000:    6s.  Last read position: chr16:88,720,504.  Last read name: A00821:110:HMVCMDSXX:2:1627:8314:5368
+INFO	2021-03-31 22:02:18	SinglePassSamProgram	Processed    22,000,000 records.  Elapsed time: 00:02:33s.  Time for last 1,000,000:    6s.  Last read position: chr17_GL000258v2_alt:1,413,149.  Last read name: A00821:110:HMVCMDSXX:2:1646:32018:35712
+INFO	2021-03-31 22:02:24	SinglePassSamProgram	Processed    23,000,000 records.  Elapsed time: 00:02:39s.  Time for last 1,000,000:    6s.  Last read position: chr1_GL383518v1_alt:78,304.  Last read name: A00821:110:HMVCMDSXX:2:1667:2727:5619
+INFO	2021-03-31 22:02:31	SinglePassSamProgram	Processed    24,000,000 records.  Elapsed time: 00:02:46s.  Time for last 1,000,000:    6s.  Last read position: chr14:58,272,668.  Last read name: A00821:110:HMVCMDSXX:2:2109:16486:25504
+INFO	2021-03-31 22:02:38	SinglePassSamProgram	Processed    25,000,000 records.  Elapsed time: 00:02:53s.  Time for last 1,000,000:    6s.  Last read position: chr7:10,933,539.  Last read name: A00821:110:HMVCMDSXX:2:2130:32154:2159
+INFO	2021-03-31 22:02:45	SinglePassSamProgram	Processed    26,000,000 records.  Elapsed time: 00:03:00s.  Time for last 1,000,000:    7s.  Last read position: chr11:1,753,075.  Last read name: A00821:110:HMVCMDSXX:2:2150:15908:36495
+INFO	2021-03-31 22:02:52	SinglePassSamProgram	Processed    27,000,000 records.  Elapsed time: 00:03:07s.  Time for last 1,000,000:    7s.  Last read position: chr14:94,592,759.  Last read name: A00821:110:HMVCMDSXX:2:2172:24270:15436
+INFO	2021-03-31 22:03:00	SinglePassSamProgram	Processed    28,000,000 records.  Elapsed time: 00:03:15s.  Time for last 1,000,000:    8s.  Last read position: chr8:143,861,622.  Last read name: A00821:110:HMVCMDSXX:2:2214:19434:34021
+INFO	2021-03-31 22:03:08	SinglePassSamProgram	Processed    29,000,000 records.  Elapsed time: 00:03:23s.  Time for last 1,000,000:    7s.  Last read position: chr11:47,724,699.  Last read name: A00821:110:HMVCMDSXX:2:2235:3351:8015
+INFO	2021-03-31 22:03:16	SinglePassSamProgram	Processed    30,000,000 records.  Elapsed time: 00:03:30s.  Time for last 1,000,000:    7s.  Last read position: chr19:11,241,454.  Last read name: A00821:110:HMVCMDSXX:2:2255:11605:33395
+INFO	2021-03-31 22:03:23	SinglePassSamProgram	Processed    31,000,000 records.  Elapsed time: 00:03:38s.  Time for last 1,000,000:    7s.  Last read position: chr11_KI270721v1_random:52,682.  Last read name: A00821:110:HMVCMDSXX:2:2277:30291:15436
+INFO	2021-03-31 22:03:31	SinglePassSamProgram	Processed    32,000,000 records.  Elapsed time: 00:03:46s.  Time for last 1,000,000:    7s.  Last read position: chr12:76,055,068.  Last read name: A00821:110:HMVCMDSXX:2:2319:14299:14544
+INFO	2021-03-31 22:03:39	SinglePassSamProgram	Processed    33,000,000 records.  Elapsed time: 00:03:54s.  Time for last 1,000,000:    7s.  Last read position: chr1:54,851,966.  Last read name: A00821:110:HMVCMDSXX:2:2339:11162:24737
+INFO	2021-03-31 22:03:46	SinglePassSamProgram	Processed    34,000,000 records.  Elapsed time: 00:04:01s.  Time for last 1,000,000:    7s.  Last read position: chr6_GL000256v2_alt:2,705,491.  Last read name: A00821:110:HMVCMDSXX:2:2360:21902:17660
+INFO	2021-03-31 22:03:55	SinglePassSamProgram	Processed    35,000,000 records.  Elapsed time: 00:04:10s.  Time for last 1,000,000:    8s.  Last read position: chr17:4,790,413.  Last read name: A00821:110:HMVCMDSXX:2:2403:4399:25708
+INFO	2021-03-31 22:04:02	SinglePassSamProgram	Processed    36,000,000 records.  Elapsed time: 00:04:17s.  Time for last 1,000,000:    7s.  Last read position: chr12:122,515,156.  Last read name: A00821:110:HMVCMDSXX:2:2423:9824:23610
+INFO	2021-03-31 22:04:10	SinglePassSamProgram	Processed    37,000,000 records.  Elapsed time: 00:04:25s.  Time for last 1,000,000:    7s.  Last read position: chr16:21,408,177.  Last read name: A00821:110:HMVCMDSXX:2:2444:15591:3568
+INFO	2021-03-31 22:04:17	SinglePassSamProgram	Processed    38,000,000 records.  Elapsed time: 00:04:32s.  Time for last 1,000,000:    7s.  Last read position: chr4:73,406,650.  Last read name: A00821:110:HMVCMDSXX:2:2464:16016:34428
+INFO	2021-03-31 22:04:24	SinglePassSamProgram	Processed    39,000,000 records.  Elapsed time: 00:04:39s.  Time for last 1,000,000:    6s.  Last read position: chr15:101,727,330.  Last read name: A00821:110:HMVCMDSXX:2:2507:29939:31234
+INFO	2021-03-31 22:04:31	SinglePassSamProgram	Processed    40,000,000 records.  Elapsed time: 00:04:46s.  Time for last 1,000,000:    6s.  Last read position: chr1:219,205,033.  Last read name: A00821:110:HMVCMDSXX:2:2527:27245:34147
+INFO	2021-03-31 22:04:41	SinglePassSamProgram	Processed    41,000,000 records.  Elapsed time: 00:04:56s.  Time for last 1,000,000:    9s.  Last read position: chr20:5,117,638.  Last read name: A00821:110:HMVCMDSXX:2:2548:6334:16376
+INFO	2021-03-31 22:04:47	SinglePassSamProgram	Processed    42,000,000 records.  Elapsed time: 00:05:02s.  Time for last 1,000,000:    6s.  Last read position: chrX:133,536,286.  Last read name: A00821:110:HMVCMDSXX:2:2569:1271:12712
+INFO	2021-03-31 22:04:55	SinglePassSamProgram	Processed    43,000,000 records.  Elapsed time: 00:05:10s.  Time for last 1,000,000:    8s.  Last read position: chr14:21,023,111.  Last read name: A00821:110:HMVCMDSXX:2:2612:18710:6245
+INFO	2021-03-31 22:05:02	SinglePassSamProgram	Processed    44,000,000 records.  Elapsed time: 00:05:17s.  Time for last 1,000,000:    6s.  Last read position: chrUn_GL000220v1:157,560.  Last read name: A00821:110:HMVCMDSXX:2:2632:17418:20635
+INFO	2021-03-31 22:05:08	SinglePassSamProgram	Processed    45,000,000 records.  Elapsed time: 00:05:23s.  Time for last 1,000,000:    6s.  Last read position: chr19:3,976,057.  Last read name: A00821:110:HMVCMDSXX:2:2653:7536:13009
+INFO	2021-03-31 22:05:16	SinglePassSamProgram	Processed    46,000,000 records.  Elapsed time: 00:05:31s.  Time for last 1,000,000:    7s.  Last read position: chrX:153,956,329.  Last read name: A00821:110:HMVCMDSXX:2:2674:26729:21042
+INFO	2021-03-31 22:05:22	SinglePassSamProgram	Processed    47,000,000 records.  Elapsed time: 00:05:37s.  Time for last 1,000,000:    6s.  Last read position: chr21:45,468,752.  Last read name: ST-E00600:102:HM25YALXX:1:1108:22950:6355
+INFO	2021-03-31 22:05:29	SinglePassSamProgram	Processed    48,000,000 records.  Elapsed time: 00:05:44s.  Time for last 1,000,000:    6s.  Last read position: chr20:32,848,919.  Last read name: ST-E00600:102:HM25YALXX:1:1117:20437:5071
+INFO	2021-03-31 22:05:35	SinglePassSamProgram	Processed    49,000,000 records.  Elapsed time: 00:05:50s.  Time for last 1,000,000:    6s.  Last read position: chr11:64,224,923.  Last read name: ST-E00600:102:HM25YALXX:1:1126:14145:1219
+INFO	2021-03-31 22:05:42	SinglePassSamProgram	Processed    50,000,000 records.  Elapsed time: 00:05:57s.  Time for last 1,000,000:    6s.  Last read position: chr19:3,463,883.  Last read name: ST-E00600:102:HM25YALXX:1:1134:12581:33677
+INFO	2021-03-31 22:05:49	SinglePassSamProgram	Processed    51,000,000 records.  Elapsed time: 00:06:04s.  Time for last 1,000,000:    7s.  Last read position: chr7:138,554,720.  Last read name: ST-E00600:102:HM25YALXX:1:1143:17381:35697
+INFO	2021-03-31 22:05:56	SinglePassSamProgram	Processed    52,000,000 records.  Elapsed time: 00:06:11s.  Time for last 1,000,000:    6s.  Last read position: chr22:36,319,810.  Last read name: ST-E00600:102:HM25YALXX:1:1153:13322:5368
+INFO	2021-03-31 22:06:02	SinglePassSamProgram	Processed    53,000,000 records.  Elapsed time: 00:06:17s.  Time for last 1,000,000:    6s.  Last read position: chr11_KI270721v1_random:51,088.  Last read name: ST-E00600:102:HM25YALXX:1:1162:8684:13745
+INFO	2021-03-31 22:06:09	SinglePassSamProgram	Processed    54,000,000 records.  Elapsed time: 00:06:24s.  Time for last 1,000,000:    6s.  Last read position: chr11_KI270721v1_random:51,165.  Last read name: ST-E00600:102:HM25YALXX:1:1172:31141:8453
+INFO	2021-03-31 22:06:15	SinglePassSamProgram	Processed    55,000,000 records.  Elapsed time: 00:06:30s.  Time for last 1,000,000:    6s.  Last read position: chr2:101,888,891.  Last read name: ST-E00600:102:HM25YALXX:1:1203:18774:33755
+INFO	2021-03-31 22:06:24	SinglePassSamProgram	Processed    56,000,000 records.  Elapsed time: 00:06:39s.  Time for last 1,000,000:    8s.  Last read position: chr19:39,492,486.  Last read name: ST-E00600:102:HM25YALXX:1:1212:10122:29637
+INFO	2021-03-31 22:06:31	SinglePassSamProgram	Processed    57,000,000 records.  Elapsed time: 00:06:46s.  Time for last 1,000,000:    7s.  Last read position: chr7:76,304,088.  Last read name: ST-E00600:102:HM25YALXX:1:1221:30870:22451
+INFO	2021-03-31 22:06:38	SinglePassSamProgram	Processed    58,000,000 records.  Elapsed time: 00:06:53s.  Time for last 1,000,000:    6s.  Last read position: chr11:2,129,599.  Last read name: ST-E00600:102:HM25YALXX:1:1230:9525:14199
+INFO	2021-03-31 22:06:45	SinglePassSamProgram	Processed    59,000,000 records.  Elapsed time: 00:07:00s.  Time for last 1,000,000:    6s.  Last read position: chr6:170,322,194.  Last read name: ST-E00600:102:HM25YALXX:1:1239:19162:10629
+INFO	2021-03-31 22:06:51	SinglePassSamProgram	Processed    60,000,000 records.  Elapsed time: 00:07:06s.  Time for last 1,000,000:    6s.  Last read position: chr19:48,966,725.  Last read name: ST-E00600:102:HM25YALXX:1:1248:22525:11976
+INFO	2021-03-31 22:06:58	SinglePassSamProgram	Processed    61,000,000 records.  Elapsed time: 00:07:13s.  Time for last 1,000,000:    6s.  Last read position: chr3:12,899,373.  Last read name: ST-E00600:102:HM25YALXX:1:1257:30499:15483
+INFO	2021-03-31 22:07:05	SinglePassSamProgram	Processed    62,000,000 records.  Elapsed time: 00:07:19s.  Time for last 1,000,000:    6s.  Last read position: chr4:73,406,679.  Last read name: ST-E00600:102:HM25YALXX:1:1266:9317:27586
+INFO	2021-03-31 22:07:12	SinglePassSamProgram	Processed    63,000,000 records.  Elapsed time: 00:07:27s.  Time for last 1,000,000:    7s.  Last read position: chr2:142,927,722.  Last read name: ST-E00600:102:HM25YALXX:1:1276:19497:25363
+INFO	2021-03-31 22:07:19	SinglePassSamProgram	Processed    64,000,000 records.  Elapsed time: 00:07:33s.  Time for last 1,000,000:    6s.  Last read position: chr11:57,426,633.  Last read name: ST-E00600:102:HM25YALXX:1:1307:7545:33849
+INFO	2021-03-31 22:07:25	SinglePassSamProgram	Processed    65,000,000 records.  Elapsed time: 00:07:40s.  Time for last 1,000,000:    6s.  Last read position: chr15:84,657,192.  Last read name: ST-E00600:102:HM25YALXX:1:1316:9182:28166
+INFO	2021-03-31 22:07:32	SinglePassSamProgram	Processed    66,000,000 records.  Elapsed time: 00:07:47s.  Time for last 1,000,000:    6s.  Last read position: chr15:90,883,191.  Last read name: ST-E00600:102:HM25YALXX:1:1325:25346:18928
+INFO	2021-03-31 22:07:41	SinglePassSamProgram	Processed    67,000,000 records.  Elapsed time: 00:07:56s.  Time for last 1,000,000:    9s.  Last read position: chr6:17,706,579.  Last read name: ST-E00600:102:HM25YALXX:1:1334:23900:10410
+INFO	2021-03-31 22:07:49	SinglePassSamProgram	Processed    68,000,000 records.  Elapsed time: 00:08:04s.  Time for last 1,000,000:    7s.  Last read position: chr4:73,420,258.  Last read name: ST-E00600:102:HM25YALXX:1:1343:1524:10739
+INFO	2021-03-31 22:07:58	SinglePassSamProgram	Processed    69,000,000 records.  Elapsed time: 00:08:12s.  Time for last 1,000,000:    8s.  Last read position: chr9:107,330,003.  Last read name: ST-E00600:102:HM25YALXX:1:1352:2257:12947
+INFO	2021-03-31 22:08:04	SinglePassSamProgram	Processed    70,000,000 records.  Elapsed time: 00:08:19s.  Time for last 1,000,000:    6s.  Last read position: chr9:19,378,740.  Last read name: ST-E00600:102:HM25YALXX:1:1361:30608:16203
+INFO	2021-03-31 22:08:11	SinglePassSamProgram	Processed    71,000,000 records.  Elapsed time: 00:08:26s.  Time for last 1,000,000:    6s.  Last read position: chr15_KI270850v1_alt:161,409.  Last read name: ST-E00600:102:HM25YALXX:1:1370:29514:36918
+INFO	2021-03-31 22:08:17	SinglePassSamProgram	Processed    72,000,000 records.  Elapsed time: 00:08:32s.  Time for last 1,000,000:    6s.  Last read position: chr1:150,219,542.  Last read name: ST-E00600:102:HM25YALXX:1:1402:24704:26678
+INFO	2021-03-31 22:08:24	SinglePassSamProgram	Processed    73,000,000 records.  Elapsed time: 00:08:39s.  Time for last 1,000,000:    6s.  Last read position: chr3:184,173,073.  Last read name: ST-E00600:102:HM25YALXX:1:1411:3920:24345
+INFO	2021-03-31 22:08:31	SinglePassSamProgram	Processed    74,000,000 records.  Elapsed time: 00:08:46s.  Time for last 1,000,000:    7s.  Last read position: chrM:10,989.  Last read name: ST-E00600:102:HM25YALXX:1:1420:25211:18411
+INFO	2021-03-31 22:08:38	SinglePassSamProgram	Processed    75,000,000 records.  Elapsed time: 00:08:52s.  Time for last 1,000,000:    6s.  Last read position: chr22_KI270733v1_random:131,027.  Last read name: ST-E00600:102:HM25YALXX:1:1429:22155:10238
+INFO	2021-03-31 22:08:45	SinglePassSamProgram	Processed    76,000,000 records.  Elapsed time: 00:09:00s.  Time for last 1,000,000:    7s.  Last read position: chr22:43,947,765.  Last read name: ST-E00600:102:HM25YALXX:1:1438:31611:8672
+INFO	2021-03-31 22:08:51	SinglePassSamProgram	Processed    77,000,000 records.  Elapsed time: 00:09:06s.  Time for last 1,000,000:    6s.  Last read position: chr22:50,216,714.  Last read name: ST-E00600:102:HM25YALXX:1:1447:18213:11177
+INFO	2021-03-31 22:08:58	SinglePassSamProgram	Processed    78,000,000 records.  Elapsed time: 00:09:13s.  Time for last 1,000,000:    6s.  Last read position: chr1:11,059,295.  Last read name: ST-E00600:102:HM25YALXX:1:1456:7762:14372
+INFO	2021-03-31 22:09:05	SinglePassSamProgram	Processed    79,000,000 records.  Elapsed time: 00:09:20s.  Time for last 1,000,000:    7s.  Last read position: chr19:14,480,442.  Last read name: ST-E00600:102:HM25YALXX:1:1465:8241:27101
+INFO	2021-03-31 22:09:15	SinglePassSamProgram	Processed    80,000,000 records.  Elapsed time: 00:09:30s.  Time for last 1,000,000:    9s.  Last read position: chr21:46,191,909.  Last read name: ST-E00600:102:HM25YALXX:1:1475:2058:19116
+INFO	2021-03-31 22:09:25	SinglePassSamProgram	Processed    81,000,000 records.  Elapsed time: 00:09:40s.  Time for last 1,000,000:   10s.  Last read position: chr6:20,491,099.  Last read name: ST-E00600:102:HM25YALXX:1:1506:24496:30201
+INFO	2021-03-31 22:09:35	SinglePassSamProgram	Processed    82,000,000 records.  Elapsed time: 00:09:50s.  Time for last 1,000,000:   10s.  Last read position: chr1:19,780,710.  Last read name: ST-E00600:102:HM25YALXX:1:1515:18891:27445
+INFO	2021-03-31 22:09:46	SinglePassSamProgram	Processed    83,000,000 records.  Elapsed time: 00:10:01s.  Time for last 1,000,000:   10s.  Last read position: chr11:66,367,220.  Last read name: ST-E00600:102:HM25YALXX:1:1524:32814:20870
+INFO	2021-03-31 22:09:56	SinglePassSamProgram	Processed    84,000,000 records.  Elapsed time: 00:10:11s.  Time for last 1,000,000:   10s.  Last read position: chr9:128,107,948.  Last read name: ST-E00600:102:HM25YALXX:1:1533:30147:18411
+INFO	2021-03-31 22:10:07	SinglePassSamProgram	Processed    85,000,000 records.  Elapsed time: 00:10:21s.  Time for last 1,000,000:   10s.  Last read position: chrM:6,791.  Last read name: ST-E00600:102:HM25YALXX:1:1542:23647:23970
+INFO	2021-03-31 22:10:17	SinglePassSamProgram	Processed    86,000,000 records.  Elapsed time: 00:10:32s.  Time for last 1,000,000:   10s.  Last read position: chr17:16,439,547.  Last read name: ST-E00600:102:HM25YALXX:1:1551:1705:29089
+INFO	2021-03-31 22:10:27	SinglePassSamProgram	Processed    87,000,000 records.  Elapsed time: 00:10:42s.  Time for last 1,000,000:    9s.  Last read position: chr20:34,534,794.  Last read name: ST-E00600:102:HM25YALXX:1:1560:19633:30044
+INFO	2021-03-31 22:10:37	SinglePassSamProgram	Processed    88,000,000 records.  Elapsed time: 00:10:51s.  Time for last 1,000,000:    9s.  Last read position: chr22:45,600,544.  Last read name: ST-E00600:102:HM25YALXX:1:1570:17526:12618
+INFO	2021-03-31 22:10:47	SinglePassSamProgram	Processed    89,000,000 records.  Elapsed time: 00:11:01s.  Time for last 1,000,000:    9s.  Last read position: chr15:43,770,559.  Last read name: ST-E00600:102:HM25YALXX:1:1602:22200:3458
+INFO	2021-03-31 22:10:57	SinglePassSamProgram	Processed    90,000,000 records.  Elapsed time: 00:11:12s.  Time for last 1,000,000:   10s.  Last read position: chrM:12,899.  Last read name: ST-E00600:102:HM25YALXX:1:1611:28999:8938
+INFO	2021-03-31 22:11:07	SinglePassSamProgram	Processed    91,000,000 records.  Elapsed time: 00:11:22s.  Time for last 1,000,000:   10s.  Last read position: chr1:54,851,205.  Last read name: ST-E00600:102:HM25YALXX:1:1620:31729:6903
+INFO	2021-03-31 22:11:17	SinglePassSamProgram	Processed    92,000,000 records.  Elapsed time: 00:11:32s.  Time for last 1,000,000:   10s.  Last read position: chr11:47,239,530.  Last read name: ST-E00600:102:HM25YALXX:1:1629:27914:3051
+INFO	2021-03-31 22:11:28	SinglePassSamProgram	Processed    93,000,000 records.  Elapsed time: 00:11:43s.  Time for last 1,000,000:   10s.  Last read position: chr9:81,613,489.  Last read name: ST-E00600:102:HM25YALXX:1:1638:23511:6355
+INFO	2021-03-31 22:11:38	SinglePassSamProgram	Processed    94,000,000 records.  Elapsed time: 00:11:53s.  Time for last 1,000,000:   10s.  Last read position: chr4:1,808,043.  Last read name: ST-E00600:102:HM25YALXX:1:1647:29125:15139
+INFO	2021-03-31 22:11:49	SinglePassSamProgram	Processed    95,000,000 records.  Elapsed time: 00:12:04s.  Time for last 1,000,000:   10s.  Last read position: chr12:93,502,356.  Last read name: ST-E00600:102:HM25YALXX:1:1656:21495:19805
+INFO	2021-03-31 22:11:59	SinglePassSamProgram	Processed    96,000,000 records.  Elapsed time: 00:12:14s.  Time for last 1,000,000:   10s.  Last read position: chr11_KI270721v1_random:52,524.  Last read name: ST-E00600:102:HM25YALXX:1:1665:22408:29935
+INFO	2021-03-31 22:12:10	SinglePassSamProgram	Processed    97,000,000 records.  Elapsed time: 00:12:25s.  Time for last 1,000,000:   10s.  Last read position: chr11:18,609,464.  Last read name: ST-E00600:102:HM25YALXX:1:1675:2166:20932
+INFO	2021-03-31 22:12:22	SinglePassSamProgram	Processed    98,000,000 records.  Elapsed time: 00:12:37s.  Time for last 1,000,000:   11s.  Last read position: chr17:75,168,333.  Last read name: ST-E00600:102:HM25YALXX:1:2107:19741:33739
+INFO	2021-03-31 22:12:33	SinglePassSamProgram	Processed    99,000,000 records.  Elapsed time: 00:12:48s.  Time for last 1,000,000:   11s.  Last read position: chr6_GL000255v2_alt:4,470,401.  Last read name: ST-E00600:102:HM25YALXX:1:2118:32289:19648
+INFO	2021-03-31 22:12:45	SinglePassSamProgram	Processed   100,000,000 records.  Elapsed time: 00:12:59s.  Time for last 1,000,000:   11s.  Last read position: chr15:55,836,569.  Last read name: ST-E00600:102:HM25YALXX:1:2129:28881:2660
+INFO	2021-03-31 22:12:55	SinglePassSamProgram	Processed   101,000,000 records.  Elapsed time: 00:13:10s.  Time for last 1,000,000:   10s.  Last read position: chr17:28,369,557.  Last read name: ST-E00600:102:HM25YALXX:1:2139:5023:26256
+INFO	2021-03-31 22:13:06	SinglePassSamProgram	Processed   102,000,000 records.  Elapsed time: 00:13:21s.  Time for last 1,000,000:   10s.  Last read position: chr1:156,295,227.  Last read name: ST-E00600:102:HM25YALXX:1:2150:25229:21699
+INFO	2021-03-31 22:13:17	SinglePassSamProgram	Processed   103,000,000 records.  Elapsed time: 00:13:31s.  Time for last 1,000,000:   10s.  Last read position: chr2:241,353,838.  Last read name: ST-E00600:102:HM25YALXX:1:2161:13919:17425
+INFO	2021-03-31 22:13:27	SinglePassSamProgram	Processed   104,000,000 records.  Elapsed time: 00:13:42s.  Time for last 1,000,000:   10s.  Last read position: chr21:42,840,925.  Last read name: ST-E00600:102:HM25YALXX:1:2172:19623:30749
+INFO	2021-03-31 22:13:37	SinglePassSamProgram	Processed   105,000,000 records.  Elapsed time: 00:13:52s.  Time for last 1,000,000:    9s.  Last read position: chr1:225,845,370.  Last read name: ST-E00600:102:HM25YALXX:1:2205:23637:34037
+INFO	2021-03-31 22:13:48	SinglePassSamProgram	Processed   106,000,000 records.  Elapsed time: 00:14:03s.  Time for last 1,000,000:   10s.  Last read position: chr11:119,303,639.  Last read name: ST-E00600:102:HM25YALXX:1:2216:3631:11506
+INFO	2021-03-31 22:13:58	SinglePassSamProgram	Processed   107,000,000 records.  Elapsed time: 00:14:13s.  Time for last 1,000,000:    9s.  Last read position: chr1:213,262,748.  Last read name: ST-E00600:102:HM25YALXX:1:2226:30644:23249
+INFO	2021-03-31 22:14:07	SinglePassSamProgram	Processed   108,000,000 records.  Elapsed time: 00:14:22s.  Time for last 1,000,000:    9s.  Last read position: chr6_GL000252v2_alt:1,979,783.  Last read name: ST-E00600:102:HM25YALXX:1:2237:19081:1219
+INFO	2021-03-31 22:14:16	SinglePassSamProgram	Processed   109,000,000 records.  Elapsed time: 00:14:31s.  Time for last 1,000,000:    9s.  Last read position: chr2:47,161,818.  Last read name: ST-E00600:102:HM25YALXX:1:2247:22209:25770
+INFO	2021-03-31 22:14:27	SinglePassSamProgram	Processed   110,000,000 records.  Elapsed time: 00:14:41s.  Time for last 1,000,000:   10s.  Last read position: chr17:78,854,288.  Last read name: ST-E00600:102:HM25YALXX:1:2258:4996:12962
+INFO	2021-03-31 22:14:37	SinglePassSamProgram	Processed   111,000,000 records.  Elapsed time: 00:14:52s.  Time for last 1,000,000:   10s.  Last read position: chr10:87,713,178.  Last read name: ST-E00600:102:HM25YALXX:1:2269:20645:17801
+INFO	2021-03-31 22:14:47	SinglePassSamProgram	Processed   112,000,000 records.  Elapsed time: 00:15:01s.  Time for last 1,000,000:    9s.  Last read position: chr11:6,613,569.  Last read name: ST-E00600:102:HM25YALXX:1:2302:28782:30295
+INFO	2021-03-31 22:14:54	SinglePassSamProgram	Processed   113,000,000 records.  Elapsed time: 00:15:09s.  Time for last 1,000,000:    7s.  Last read position: chr19:7,470,666.  Last read name: ST-E00600:102:HM25YALXX:1:2313:4743:16219
+INFO	2021-03-31 22:15:00	SinglePassSamProgram	Processed   114,000,000 records.  Elapsed time: 00:15:15s.  Time for last 1,000,000:    6s.  Last read position: chr15:60,382,375.  Last read name: ST-E00600:102:HM25YALXX:1:2323:2121:27712
+INFO	2021-03-31 22:15:09	SinglePassSamProgram	Processed   115,000,000 records.  Elapsed time: 00:15:24s.  Time for last 1,000,000:    8s.  Last read position: chr3:41,236,436.  Last read name: ST-E00600:102:HM25YALXX:1:2334:20817:3818
+INFO	2021-03-31 22:15:20	SinglePassSamProgram	Processed   116,000,000 records.  Elapsed time: 00:15:35s.  Time for last 1,000,000:   10s.  Last read position: chrM:11,971.  Last read name: ST-E00600:102:HM25YALXX:1:2344:27371:31641
+INFO	2021-03-31 22:15:30	SinglePassSamProgram	Processed   117,000,000 records.  Elapsed time: 00:15:45s.  Time for last 1,000,000:   10s.  Last read position: chr6:73,517,843.  Last read name: ST-E00600:102:HM25YALXX:1:2355:1226:21872
+INFO	2021-03-31 22:15:40	SinglePassSamProgram	Processed   118,000,000 records.  Elapsed time: 00:15:55s.  Time for last 1,000,000:   10s.  Last read position: chr17:76,144,893.  Last read name: ST-E00600:102:HM25YALXX:1:2366:2510:26005
+INFO	2021-03-31 22:15:50	SinglePassSamProgram	Processed   119,000,000 records.  Elapsed time: 00:16:05s.  Time for last 1,000,000:   10s.  Last read position: chr15:89,803,905.  Last read name: ST-E00600:102:HM25YALXX:1:2378:4029:3583
+INFO	2021-03-31 22:16:01	SinglePassSamProgram	Processed   120,000,000 records.  Elapsed time: 00:16:16s.  Time for last 1,000,000:   10s.  Last read position: chr22:38,468,322.  Last read name: ST-E00600:102:HM25YALXX:1:2410:1922:24925
+INFO	2021-03-31 22:16:11	SinglePassSamProgram	Processed   121,000,000 records.  Elapsed time: 00:16:26s.  Time for last 1,000,000:    9s.  Last read position: chr6:73,518,518.  Last read name: ST-E00600:102:HM25YALXX:1:2420:30156:35305
+INFO	2021-03-31 22:16:20	SinglePassSamProgram	Processed   122,000,000 records.  Elapsed time: 00:16:34s.  Time for last 1,000,000:    8s.  Last read position: chr6:31,961,561.  Last read name: ST-E00600:102:HM25YALXX:1:2431:3396:10911
+INFO	2021-03-31 22:16:28	SinglePassSamProgram	Processed   123,000,000 records.  Elapsed time: 00:16:43s.  Time for last 1,000,000:    8s.  Last read position: chr15:85,203,888.  Last read name: ST-E00600:102:HM25YALXX:1:2442:11858:2362
+INFO	2021-03-31 22:16:37	SinglePassSamProgram	Processed   124,000,000 records.  Elapsed time: 00:16:52s.  Time for last 1,000,000:    8s.  Last read position: chr12:112,509,257.  Last read name: ST-E00600:102:HM25YALXX:1:2452:25382:29763
+INFO	2021-03-31 22:16:48	SinglePassSamProgram	Processed   125,000,000 records.  Elapsed time: 00:17:03s.  Time for last 1,000,000:   10s.  Last read position: chr1:161,366,817.  Last read name: ST-E00600:102:HM25YALXX:1:2463:31060:26913
+INFO	2021-03-31 22:16:57	SinglePassSamProgram	Processed   126,000,000 records.  Elapsed time: 00:17:12s.  Time for last 1,000,000:    9s.  Last read position: chr4:150,302,752.  Last read name: ST-E00600:102:HM25YALXX:1:2475:19099:2628
+INFO	2021-03-31 22:17:08	SinglePassSamProgram	Processed   127,000,000 records.  Elapsed time: 00:17:23s.  Time for last 1,000,000:   11s.  Last read position: chr1:16,161,517.  Last read name: ST-E00600:102:HM25YALXX:1:2508:3748:2534
+INFO	2021-03-31 22:17:19	SinglePassSamProgram	Processed   128,000,000 records.  Elapsed time: 00:17:34s.  Time for last 1,000,000:   10s.  Last read position: chr12:120,197,386.  Last read name: ST-E00600:102:HM25YALXX:1:2518:24460:19867
+INFO	2021-03-31 22:17:29	SinglePassSamProgram	Processed   129,000,000 records.  Elapsed time: 00:17:44s.  Time for last 1,000,000:   10s.  Last read position: chr17:82,087,813.  Last read name: ST-E00600:102:HM25YALXX:1:2528:31882:35978
+INFO	2021-03-31 22:17:40	SinglePassSamProgram	Processed   130,000,000 records.  Elapsed time: 00:17:55s.  Time for last 1,000,000:   10s.  Last read position: chr21:36,072,597.  Last read name: ST-E00600:102:HM25YALXX:1:2539:25337:24549
+INFO	2021-03-31 22:17:50	SinglePassSamProgram	Processed   131,000,000 records.  Elapsed time: 00:18:05s.  Time for last 1,000,000:   10s.  Last read position: chr5:31,553,663.  Last read name: ST-E00600:102:HM25YALXX:1:2550:2953:24392
+INFO	2021-03-31 22:18:01	SinglePassSamProgram	Processed   132,000,000 records.  Elapsed time: 00:18:16s.  Time for last 1,000,000:   10s.  Last read position: chr6:122,444,371.  Last read name: ST-E00600:102:HM25YALXX:1:2561:8015:16407
+INFO	2021-03-31 22:18:12	SinglePassSamProgram	Processed   133,000,000 records.  Elapsed time: 00:18:27s.  Time for last 1,000,000:   10s.  Last read position: chr12:9,079,292.  Last read name: ST-E00600:102:HM25YALXX:1:2572:18014:25457
+INFO	2021-03-31 22:18:22	SinglePassSamProgram	Processed   134,000,000 records.  Elapsed time: 00:18:37s.  Time for last 1,000,000:   10s.  Last read position: chr20:64,056,867.  Last read name: ST-E00600:102:HM25YALXX:1:2605:32696:35916
+INFO	2021-03-31 22:18:33	SinglePassSamProgram	Processed   135,000,000 records.  Elapsed time: 00:18:48s.  Time for last 1,000,000:   10s.  Last read position: chr9:83,974,575.  Last read name: ST-E00600:102:HM25YALXX:1:2616:18683:26396
+INFO	2021-03-31 22:18:44	SinglePassSamProgram	Processed   136,000,000 records.  Elapsed time: 00:18:59s.  Time for last 1,000,000:   11s.  Last read position: chr1_GL383519v1_alt:98,306.  Last read name: ST-E00600:102:HM25YALXX:1:2627:30165:10708
+INFO	2021-03-31 22:18:56	SinglePassSamProgram	Processed   137,000,000 records.  Elapsed time: 00:19:10s.  Time for last 1,000,000:   11s.  Last read position: chr4:153,466,383.  Last read name: ST-E00600:102:HM25YALXX:1:2638:14027:4648
+INFO	2021-03-31 22:19:06	SinglePassSamProgram	Processed   138,000,000 records.  Elapsed time: 00:19:21s.  Time for last 1,000,000:   10s.  Last read position: chr19:14,151,482.  Last read name: ST-E00600:102:HM25YALXX:1:2649:29035:9377
+INFO	2021-03-31 22:19:16	SinglePassSamProgram	Processed   139,000,000 records.  Elapsed time: 00:19:31s.  Time for last 1,000,000:   10s.  Last read position: chr1:19,257,479.  Last read name: ST-E00600:102:HM25YALXX:1:2660:20220:7044
+INFO	2021-03-31 22:19:27	SinglePassSamProgram	Processed   140,000,000 records.  Elapsed time: 00:19:42s.  Time for last 1,000,000:   10s.  Last read position: chr19:2,045,293.  Last read name: ST-E00600:102:HM25YALXX:1:2671:19605:18411
+INFO	2021-03-31 22:19:34	RExecutor	Executing R script via command: Rscript /tmp/script3868378408525730724.R /home/fuqc/1/Hep3B2-1-7_FRAS190069749-1a/hisat/variants/qualityscores.txt /home/fuqc/1/Hep3B2-1-7_FRAS190069749-1a/hisat/variants/qualityscores.chart Hep3B2-1-7_FRAS190069749-1a.hisat.sam 
+INFO	2021-03-31 22:19:34	ProcessExecutor	null device 
+INFO	2021-03-31 22:19:34	ProcessExecutor	          1 
+[Wed Mar 31 22:19:34 CST 2021] picard.analysis.QualityScoreDistribution done. Elapsed time: 19.83 minutes.
+Runtime.totalMemory()=1535115264
+INFO	2021-03-31 22:19:35	SortSam	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    SortSam -INPUT ../Hep3B2-1-7_FRAS190069749-1a.hisat.sam -OUTPUT aln_sorted.bam -SO coordinate
+**********
+
+
+22:19:35.802 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/fuqc/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Mar 31 22:19:35 CST 2021] SortSam INPUT=../Hep3B2-1-7_FRAS190069749-1a.hisat.sam OUTPUT=aln_sorted.bam SORT_ORDER=coordinate    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Wed Mar 31 22:19:35 CST 2021] Executing as fuqc@yuzj-pc on Linux 5.10.0-5-amd64 amd64; OpenJDK 64-Bit Server VM 11.0.11-ea+4-post-Debian-1; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.25.1
+INFO	2021-03-31 22:19:36	SortSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2021-03-31 22:21:46	SortSam	Read    10,000,000 records.  Elapsed time: 00:02:10s.  Time for last 10,000,000:  130s.  Last read position: chr6:30,067,340.  Last read name: A00821:110:HMVCMDSXX:2:1343:25771:22670
+INFO	2021-03-31 22:23:53	SortSam	Read    20,000,000 records.  Elapsed time: 00:04:17s.  Time for last 10,000,000:  127s.  Last read position: chr4:73,408,805.  Last read name: A00821:110:HMVCMDSXX:2:1607:13006:20008
+INFO	2021-03-31 22:26:08	SortSam	Read    30,000,000 records.  Elapsed time: 00:06:32s.  Time for last 10,000,000:  135s.  Last read position: chr19:11,241,454.  Last read name: A00821:110:HMVCMDSXX:2:2255:11605:33395
+INFO	2021-03-31 22:28:15	SortSam	Read    40,000,000 records.  Elapsed time: 00:08:39s.  Time for last 10,000,000:  127s.  Last read position: chr1:219,205,033.  Last read name: A00821:110:HMVCMDSXX:2:2527:27245:34147
+INFO	2021-03-31 22:30:31	SortSam	Read    50,000,000 records.  Elapsed time: 00:10:55s.  Time for last 10,000,000:  135s.  Last read position: chr19:3,463,883.  Last read name: ST-E00600:102:HM25YALXX:1:1134:12581:33677
+INFO	2021-03-31 22:32:44	SortSam	Read    60,000,000 records.  Elapsed time: 00:13:08s.  Time for last 10,000,000:  132s.  Last read position: chr19:48,966,725.  Last read name: ST-E00600:102:HM25YALXX:1:1248:22525:11976
+INFO	2021-03-31 22:35:02	SortSam	Read    70,000,000 records.  Elapsed time: 00:15:26s.  Time for last 10,000,000:  138s.  Last read position: chr9:19,378,740.  Last read name: ST-E00600:102:HM25YALXX:1:1361:30608:16203
+INFO	2021-03-31 22:37:33	SortSam	Read    80,000,000 records.  Elapsed time: 00:17:57s.  Time for last 10,000,000:  151s.  Last read position: chr21:46,191,909.  Last read name: ST-E00600:102:HM25YALXX:1:1475:2058:19116
+INFO	2021-03-31 22:39:47	SortSam	Read    90,000,000 records.  Elapsed time: 00:20:11s.  Time for last 10,000,000:  133s.  Last read position: chrM:12,899.  Last read name: ST-E00600:102:HM25YALXX:1:1611:28999:8938
+INFO	2021-03-31 22:42:05	SortSam	Read   100,000,000 records.  Elapsed time: 00:22:29s.  Time for last 10,000,000:  137s.  Last read position: chr15:55,836,569.  Last read name: ST-E00600:102:HM25YALXX:1:2129:28881:2660
+INFO	2021-03-31 22:44:15	SortSam	Read   110,000,000 records.  Elapsed time: 00:24:39s.  Time for last 10,000,000:  130s.  Last read position: chr17:78,854,288.  Last read name: ST-E00600:102:HM25YALXX:1:2258:4996:12962
+INFO	2021-03-31 22:46:23	SortSam	Read   120,000,000 records.  Elapsed time: 00:26:47s.  Time for last 10,000,000:  127s.  Last read position: chr22:38,468,322.  Last read name: ST-E00600:102:HM25YALXX:1:2410:1922:24925
+INFO	2021-03-31 22:48:37	SortSam	Read   130,000,000 records.  Elapsed time: 00:29:01s.  Time for last 10,000,000:  134s.  Last read position: chr21:36,072,597.  Last read name: ST-E00600:102:HM25YALXX:1:2539:25337:24549
+INFO	2021-03-31 22:50:52	SortSam	Read   140,000,000 records.  Elapsed time: 00:31:16s.  Time for last 10,000,000:  134s.  Last read position: chr19:2,045,293.  Last read name: ST-E00600:102:HM25YALXX:1:2671:19605:18411
+INFO	2021-03-31 22:51:01	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2021-03-31 22:52:17	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:32:41s.  Time for last 10,000,000:   72s.  Last read position: chr1:202,580,596
+INFO	2021-03-31 22:53:31	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:33:55s.  Time for last 10,000,000:   73s.  Last read position: chr3:48,609,259
+INFO	2021-03-31 22:54:42	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:35:06s.  Time for last 10,000,000:   71s.  Last read position: chr4:145,121,345
+INFO	2021-03-31 22:55:54	SortSam	Wrote    40,000,000 records from a sorting collection.  Elapsed time: 00:36:18s.  Time for last 10,000,000:   72s.  Last read position: chr7:1,502,916
+INFO	2021-03-31 22:57:07	SortSam	Wrote    50,000,000 records from a sorting collection.  Elapsed time: 00:37:31s.  Time for last 10,000,000:   72s.  Last read position: chr9:83,938,857
+INFO	2021-03-31 22:58:18	SortSam	Wrote    60,000,000 records from a sorting collection.  Elapsed time: 00:38:42s.  Time for last 10,000,000:   70s.  Last read position: chr11:2,129,416
+INFO	2021-03-31 22:59:30	SortSam	Wrote    70,000,000 records from a sorting collection.  Elapsed time: 00:39:54s.  Time for last 10,000,000:   71s.  Last read position: chr12:12,477,435
+INFO	2021-03-31 23:00:44	SortSam	Wrote    80,000,000 records from a sorting collection.  Elapsed time: 00:41:08s.  Time for last 10,000,000:   74s.  Last read position: chr15:58,453,924
+INFO	2021-03-31 23:01:56	SortSam	Wrote    90,000,000 records from a sorting collection.  Elapsed time: 00:42:20s.  Time for last 10,000,000:   72s.  Last read position: chr17:38,755,910
+INFO	2021-03-31 23:03:14	SortSam	Wrote   100,000,000 records from a sorting collection.  Elapsed time: 00:43:37s.  Time for last 10,000,000:   77s.  Last read position: chr19:11,321,827
+INFO	2021-03-31 23:04:25	SortSam	Wrote   110,000,000 records from a sorting collection.  Elapsed time: 00:44:49s.  Time for last 10,000,000:   71s.  Last read position: chr21:8,217,695
+INFO	2021-03-31 23:05:36	SortSam	Wrote   120,000,000 records from a sorting collection.  Elapsed time: 00:46:00s.  Time for last 10,000,000:   71s.  Last read position: chrM:5,473
+INFO	2021-03-31 23:06:41	SortSam	Wrote   130,000,000 records from a sorting collection.  Elapsed time: 00:47:05s.  Time for last 10,000,000:   64s.  Last read position: chr6_GL000250v2_alt:3,167,787
+INFO	2021-03-31 23:08:01	SortSam	Wrote   140,000,000 records from a sorting collection.  Elapsed time: 00:48:25s.  Time for last 10,000,000:   79s.  Last read position: */*
+[Wed Mar 31 23:08:10 CST 2021] picard.sam.SortSam done. Elapsed time: 48.57 minutes.
+Runtime.totalMemory()=838860800
+INFO	2021-03-31 23:08:11	AddOrReplaceReadGroups	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    AddOrReplaceReadGroups -INPUT aln_sorted.bam -OUTPUT aln_sorted_add.bam -SO coordinate -RGID Label -RGLB Label -RGPL illumina -RGPU Label -RGSM Label
+**********
+
+
+23:08:13.005 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/fuqc/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Mar 31 23:08:13 CST 2021] AddOrReplaceReadGroups INPUT=aln_sorted.bam OUTPUT=aln_sorted_add.bam SORT_ORDER=coordinate RGID=Label RGLB=Label RGPL=illumina RGPU=Label RGSM=Label    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Wed Mar 31 23:08:13 CST 2021] Executing as fuqc@yuzj-pc on Linux 5.10.0-5-amd64 amd64; OpenJDK 64-Bit Server VM 11.0.11-ea+4-post-Debian-1; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.25.1
+INFO	2021-03-31 23:08:13	AddOrReplaceReadGroups	Created read-group ID=Label PL=illumina LB=Label SM=Label
+
+INFO	2021-03-31 23:08:23	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:10s.  Time for last 1,000,000:   10s.  Last read position: chr1:1,727,452
+INFO	2021-03-31 23:08:34	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:   11s.  Last read position: chr1:17,634,908
+INFO	2021-03-31 23:08:45	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:   10s.  Last read position: chr1:32,334,019
+INFO	2021-03-31 23:08:56	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:   10s.  Last read position: chr1:51,909,283
+INFO	2021-03-31 23:09:06	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:   10s.  Last read position: chr1:95,194,596
+INFO	2021-03-31 23:09:16	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:   10s.  Last read position: chr1:150,265,974
+INFO	2021-03-31 23:09:26	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:    9s.  Last read position: chr1:155,172,625
+INFO	2021-03-31 23:09:36	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    9s.  Last read position: chr1:160,994,087
+INFO	2021-03-31 23:09:45	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:01:32s.  Time for last 1,000,000:    9s.  Last read position: chr1:165,743,299
+INFO	2021-03-31 23:09:55	AddOrReplaceReadGroups	Processed    10,000,000 records.  Elapsed time: 00:01:42s.  Time for last 1,000,000:   10s.  Last read position: chr1:202,580,596
+INFO	2021-03-31 23:10:05	AddOrReplaceReadGroups	Processed    11,000,000 records.  Elapsed time: 00:01:52s.  Time for last 1,000,000:   10s.  Last read position: chr1:225,924,105
+INFO	2021-03-31 23:10:15	AddOrReplaceReadGroups	Processed    12,000,000 records.  Elapsed time: 00:02:02s.  Time for last 1,000,000:   10s.  Last read position: chr2:3,454,858
+INFO	2021-03-31 23:10:26	AddOrReplaceReadGroups	Processed    13,000,000 records.  Elapsed time: 00:02:13s.  Time for last 1,000,000:   10s.  Last read position: chr2:42,280,957
+INFO	2021-03-31 23:10:36	AddOrReplaceReadGroups	Processed    14,000,000 records.  Elapsed time: 00:02:23s.  Time for last 1,000,000:   10s.  Last read position: chr2:70,210,502
+INFO	2021-03-31 23:10:47	AddOrReplaceReadGroups	Processed    15,000,000 records.  Elapsed time: 00:02:33s.  Time for last 1,000,000:   10s.  Last read position: chr2:100,990,780
+INFO	2021-03-31 23:10:57	AddOrReplaceReadGroups	Processed    16,000,000 records.  Elapsed time: 00:02:44s.  Time for last 1,000,000:   10s.  Last read position: chr2:152,663,136
+INFO	2021-03-31 23:11:08	AddOrReplaceReadGroups	Processed    17,000,000 records.  Elapsed time: 00:02:54s.  Time for last 1,000,000:   10s.  Last read position: chr2:205,619,550
+INFO	2021-03-31 23:11:17	AddOrReplaceReadGroups	Processed    18,000,000 records.  Elapsed time: 00:03:04s.  Time for last 1,000,000:    9s.  Last read position: chr2:231,455,054
+INFO	2021-03-31 23:11:28	AddOrReplaceReadGroups	Processed    19,000,000 records.  Elapsed time: 00:03:15s.  Time for last 1,000,000:   10s.  Last read position: chr3:12,936,381
+INFO	2021-03-31 23:11:38	AddOrReplaceReadGroups	Processed    20,000,000 records.  Elapsed time: 00:03:25s.  Time for last 1,000,000:   10s.  Last read position: chr3:48,609,259
+INFO	2021-03-31 23:11:48	AddOrReplaceReadGroups	Processed    21,000,000 records.  Elapsed time: 00:03:35s.  Time for last 1,000,000:    9s.  Last read position: chr3:94,060,791
+INFO	2021-03-31 23:11:58	AddOrReplaceReadGroups	Processed    22,000,000 records.  Elapsed time: 00:03:45s.  Time for last 1,000,000:   10s.  Last read position: chr3:133,746,406
+INFO	2021-03-31 23:12:08	AddOrReplaceReadGroups	Processed    23,000,000 records.  Elapsed time: 00:03:55s.  Time for last 1,000,000:    9s.  Last read position: chr3:156,540,410
+INFO	2021-03-31 23:12:18	AddOrReplaceReadGroups	Processed    24,000,000 records.  Elapsed time: 00:04:04s.  Time for last 1,000,000:    9s.  Last read position: chr3:186,620,730
+INFO	2021-03-31 23:12:27	AddOrReplaceReadGroups	Processed    25,000,000 records.  Elapsed time: 00:04:14s.  Time for last 1,000,000:    9s.  Last read position: chr4:1,001,551
+INFO	2021-03-31 23:12:38	AddOrReplaceReadGroups	Processed    26,000,000 records.  Elapsed time: 00:04:24s.  Time for last 1,000,000:   10s.  Last read position: chr4:37,606,480
+INFO	2021-03-31 23:12:48	AddOrReplaceReadGroups	Processed    27,000,000 records.  Elapsed time: 00:04:35s.  Time for last 1,000,000:   10s.  Last read position: chr4:73,404,318
+INFO	2021-03-31 23:12:57	AddOrReplaceReadGroups	Processed    28,000,000 records.  Elapsed time: 00:04:44s.  Time for last 1,000,000:    9s.  Last read position: chr4:73,412,112
+INFO	2021-03-31 23:13:06	AddOrReplaceReadGroups	Processed    29,000,000 records.  Elapsed time: 00:04:53s.  Time for last 1,000,000:    9s.  Last read position: chr4:73,418,300
+INFO	2021-03-31 23:13:16	AddOrReplaceReadGroups	Processed    30,000,000 records.  Elapsed time: 00:05:03s.  Time for last 1,000,000:    9s.  Last read position: chr4:145,121,345
+INFO	2021-03-31 23:13:27	AddOrReplaceReadGroups	Processed    31,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:   10s.  Last read position: chr5:39,371,972
+INFO	2021-03-31 23:13:37	AddOrReplaceReadGroups	Processed    32,000,000 records.  Elapsed time: 00:05:24s.  Time for last 1,000,000:   10s.  Last read position: chr5:88,761,255
+INFO	2021-03-31 23:13:47	AddOrReplaceReadGroups	Processed    33,000,000 records.  Elapsed time: 00:05:34s.  Time for last 1,000,000:   10s.  Last read position: chr5:149,995,874
+INFO	2021-03-31 23:13:58	AddOrReplaceReadGroups	Processed    34,000,000 records.  Elapsed time: 00:05:45s.  Time for last 1,000,000:   10s.  Last read position: chr5:181,241,556
+INFO	2021-03-31 23:14:08	AddOrReplaceReadGroups	Processed    35,000,000 records.  Elapsed time: 00:05:55s.  Time for last 1,000,000:   10s.  Last read position: chr6:30,914,982
+INFO	2021-03-31 23:14:18	AddOrReplaceReadGroups	Processed    36,000,000 records.  Elapsed time: 00:06:05s.  Time for last 1,000,000:   10s.  Last read position: chr6:34,872,490
+INFO	2021-03-31 23:14:29	AddOrReplaceReadGroups	Processed    37,000,000 records.  Elapsed time: 00:06:16s.  Time for last 1,000,000:   10s.  Last read position: chr6:52,415,826
+INFO	2021-03-31 23:14:38	AddOrReplaceReadGroups	Processed    38,000,000 records.  Elapsed time: 00:06:25s.  Time for last 1,000,000:    9s.  Last read position: chr6:75,253,753
+INFO	2021-03-31 23:14:49	AddOrReplaceReadGroups	Processed    39,000,000 records.  Elapsed time: 00:06:36s.  Time for last 1,000,000:   10s.  Last read position: chr6:137,203,568
+INFO	2021-03-31 23:14:59	AddOrReplaceReadGroups	Processed    40,000,000 records.  Elapsed time: 00:06:46s.  Time for last 1,000,000:   10s.  Last read position: chr7:1,502,916
+INFO	2021-03-31 23:15:10	AddOrReplaceReadGroups	Processed    41,000,000 records.  Elapsed time: 00:06:57s.  Time for last 1,000,000:   10s.  Last read position: chr7:6,621,528
+INFO	2021-03-31 23:15:20	AddOrReplaceReadGroups	Processed    42,000,000 records.  Elapsed time: 00:07:07s.  Time for last 1,000,000:   10s.  Last read position: chr7:44,212,531
+INFO	2021-03-31 23:15:31	AddOrReplaceReadGroups	Processed    43,000,000 records.  Elapsed time: 00:07:18s.  Time for last 1,000,000:   10s.  Last read position: chr7:73,607,418
+INFO	2021-03-31 23:15:42	AddOrReplaceReadGroups	Processed    44,000,000 records.  Elapsed time: 00:07:29s.  Time for last 1,000,000:   10s.  Last read position: chr7:100,577,318
+INFO	2021-03-31 23:15:52	AddOrReplaceReadGroups	Processed    45,000,000 records.  Elapsed time: 00:07:39s.  Time for last 1,000,000:   10s.  Last read position: chr7:140,728,412
+INFO	2021-03-31 23:16:03	AddOrReplaceReadGroups	Processed    46,000,000 records.  Elapsed time: 00:07:50s.  Time for last 1,000,000:   10s.  Last read position: chr8:22,103,070
+INFO	2021-03-31 23:16:13	AddOrReplaceReadGroups	Processed    47,000,000 records.  Elapsed time: 00:08:00s.  Time for last 1,000,000:   10s.  Last read position: chr8:66,921,651
+INFO	2021-03-31 23:16:24	AddOrReplaceReadGroups	Processed    48,000,000 records.  Elapsed time: 00:08:11s.  Time for last 1,000,000:   10s.  Last read position: chr8:125,003,243
+INFO	2021-03-31 23:16:34	AddOrReplaceReadGroups	Processed    49,000,000 records.  Elapsed time: 00:08:21s.  Time for last 1,000,000:   10s.  Last read position: chr9:4,728,151
+INFO	2021-03-31 23:16:45	AddOrReplaceReadGroups	Processed    50,000,000 records.  Elapsed time: 00:08:32s.  Time for last 1,000,000:   11s.  Last read position: chr9:83,938,857
+INFO	2021-03-31 23:16:55	AddOrReplaceReadGroups	Processed    51,000,000 records.  Elapsed time: 00:08:42s.  Time for last 1,000,000:   10s.  Last read position: chr9:120,787,873
+INFO	2021-03-31 23:17:06	AddOrReplaceReadGroups	Processed    52,000,000 records.  Elapsed time: 00:08:53s.  Time for last 1,000,000:   10s.  Last read position: chr9:133,395,669
+INFO	2021-03-31 23:17:16	AddOrReplaceReadGroups	Processed    53,000,000 records.  Elapsed time: 00:09:03s.  Time for last 1,000,000:    9s.  Last read position: chr10:22,318,126
+INFO	2021-03-31 23:17:26	AddOrReplaceReadGroups	Processed    54,000,000 records.  Elapsed time: 00:09:13s.  Time for last 1,000,000:   10s.  Last read position: chr10:78,033,863
+INFO	2021-03-31 23:17:36	AddOrReplaceReadGroups	Processed    55,000,000 records.  Elapsed time: 00:09:23s.  Time for last 1,000,000:    9s.  Last read position: chr10:100,361,872
+INFO	2021-03-31 23:17:46	AddOrReplaceReadGroups	Processed    56,000,000 records.  Elapsed time: 00:09:33s.  Time for last 1,000,000:   10s.  Last read position: chr10:133,402,088
+INFO	2021-03-31 23:17:56	AddOrReplaceReadGroups	Processed    57,000,000 records.  Elapsed time: 00:09:43s.  Time for last 1,000,000:    9s.  Last read position: chr11:1,995,462
+INFO	2021-03-31 23:18:05	AddOrReplaceReadGroups	Processed    58,000,000 records.  Elapsed time: 00:09:52s.  Time for last 1,000,000:    9s.  Last read position: chr11:1,996,361
+INFO	2021-03-31 23:18:14	AddOrReplaceReadGroups	Processed    59,000,000 records.  Elapsed time: 00:10:01s.  Time for last 1,000,000:    8s.  Last read position: chr11:1,997,176
+INFO	2021-03-31 23:18:23	AddOrReplaceReadGroups	Processed    60,000,000 records.  Elapsed time: 00:10:10s.  Time for last 1,000,000:    9s.  Last read position: chr11:2,129,416
+INFO	2021-03-31 23:18:33	AddOrReplaceReadGroups	Processed    61,000,000 records.  Elapsed time: 00:10:19s.  Time for last 1,000,000:    9s.  Last read position: chr11:2,131,226
+INFO	2021-03-31 23:18:42	AddOrReplaceReadGroups	Processed    62,000,000 records.  Elapsed time: 00:10:29s.  Time for last 1,000,000:    9s.  Last read position: chr11:2,133,089
+INFO	2021-03-31 23:18:53	AddOrReplaceReadGroups	Processed    63,000,000 records.  Elapsed time: 00:10:39s.  Time for last 1,000,000:   10s.  Last read position: chr11:9,573,703
+INFO	2021-03-31 23:19:03	AddOrReplaceReadGroups	Processed    64,000,000 records.  Elapsed time: 00:10:49s.  Time for last 1,000,000:   10s.  Last read position: chr11:47,580,594
+INFO	2021-03-31 23:19:12	AddOrReplaceReadGroups	Processed    65,000,000 records.  Elapsed time: 00:10:59s.  Time for last 1,000,000:    9s.  Last read position: chr11:62,576,397
+INFO	2021-03-31 23:19:22	AddOrReplaceReadGroups	Processed    66,000,000 records.  Elapsed time: 00:11:09s.  Time for last 1,000,000:   10s.  Last read position: chr11:65,540,146
+INFO	2021-03-31 23:19:33	AddOrReplaceReadGroups	Processed    67,000,000 records.  Elapsed time: 00:11:19s.  Time for last 1,000,000:   10s.  Last read position: chr11:67,507,685
+INFO	2021-03-31 23:19:43	AddOrReplaceReadGroups	Processed    68,000,000 records.  Elapsed time: 00:11:29s.  Time for last 1,000,000:    9s.  Last read position: chr11:82,850,431
+INFO	2021-03-31 23:19:53	AddOrReplaceReadGroups	Processed    69,000,000 records.  Elapsed time: 00:11:39s.  Time for last 1,000,000:   10s.  Last read position: chr12:752,880
+INFO	2021-03-31 23:20:02	AddOrReplaceReadGroups	Processed    70,000,000 records.  Elapsed time: 00:11:49s.  Time for last 1,000,000:    9s.  Last read position: chr12:12,477,435
+INFO	2021-03-31 23:20:13	AddOrReplaceReadGroups	Processed    71,000,000 records.  Elapsed time: 00:11:59s.  Time for last 1,000,000:   10s.  Last read position: chr12:53,041,360
+INFO	2021-03-31 23:20:23	AddOrReplaceReadGroups	Processed    72,000,000 records.  Elapsed time: 00:12:10s.  Time for last 1,000,000:   10s.  Last read position: chr12:57,266,734
+INFO	2021-03-31 23:20:34	AddOrReplaceReadGroups	Processed    73,000,000 records.  Elapsed time: 00:12:20s.  Time for last 1,000,000:   10s.  Last read position: chr12:104,886,416
+INFO	2021-03-31 23:20:44	AddOrReplaceReadGroups	Processed    74,000,000 records.  Elapsed time: 00:12:31s.  Time for last 1,000,000:   10s.  Last read position: chr12:121,779,107
+INFO	2021-03-31 23:20:55	AddOrReplaceReadGroups	Processed    75,000,000 records.  Elapsed time: 00:12:42s.  Time for last 1,000,000:   10s.  Last read position: chr13:41,358,325
+INFO	2021-03-31 23:21:06	AddOrReplaceReadGroups	Processed    76,000,000 records.  Elapsed time: 00:12:52s.  Time for last 1,000,000:   10s.  Last read position: chr14:20,458,280
+INFO	2021-03-31 23:21:16	AddOrReplaceReadGroups	Processed    77,000,000 records.  Elapsed time: 00:13:03s.  Time for last 1,000,000:   10s.  Last read position: chr14:52,620,235
+INFO	2021-03-31 23:21:27	AddOrReplaceReadGroups	Processed    78,000,000 records.  Elapsed time: 00:13:13s.  Time for last 1,000,000:   10s.  Last read position: chr14:94,587,436
+INFO	2021-03-31 23:21:37	AddOrReplaceReadGroups	Processed    79,000,000 records.  Elapsed time: 00:13:24s.  Time for last 1,000,000:   10s.  Last read position: chr15:34,382,211
+INFO	2021-03-31 23:21:47	AddOrReplaceReadGroups	Processed    80,000,000 records.  Elapsed time: 00:13:34s.  Time for last 1,000,000:   10s.  Last read position: chr15:58,453,924
+INFO	2021-03-31 23:21:57	AddOrReplaceReadGroups	Processed    81,000,000 records.  Elapsed time: 00:13:44s.  Time for last 1,000,000:    9s.  Last read position: chr15:77,056,124
+INFO	2021-03-31 23:22:08	AddOrReplaceReadGroups	Processed    82,000,000 records.  Elapsed time: 00:13:55s.  Time for last 1,000,000:   11s.  Last read position: chr16:407,883
+INFO	2021-03-31 23:22:19	AddOrReplaceReadGroups	Processed    83,000,000 records.  Elapsed time: 00:14:06s.  Time for last 1,000,000:   10s.  Last read position: chr16:11,351,065
+INFO	2021-03-31 23:22:29	AddOrReplaceReadGroups	Processed    84,000,000 records.  Elapsed time: 00:14:16s.  Time for last 1,000,000:    9s.  Last read position: chr16:23,453,001
+INFO	2021-03-31 23:22:39	AddOrReplaceReadGroups	Processed    85,000,000 records.  Elapsed time: 00:14:26s.  Time for last 1,000,000:   10s.  Last read position: chr16:30,988,266
+INFO	2021-03-31 23:22:51	AddOrReplaceReadGroups	Processed    86,000,000 records.  Elapsed time: 00:14:38s.  Time for last 1,000,000:   11s.  Last read position: chr16:74,632,528
+INFO	2021-03-31 23:23:01	AddOrReplaceReadGroups	Processed    87,000,000 records.  Elapsed time: 00:14:48s.  Time for last 1,000,000:   10s.  Last read position: chr17:1,769,961
+INFO	2021-03-31 23:23:16	AddOrReplaceReadGroups	Processed    88,000,000 records.  Elapsed time: 00:15:03s.  Time for last 1,000,000:   14s.  Last read position: chr17:7,463,274
+INFO	2021-03-31 23:23:27	AddOrReplaceReadGroups	Processed    89,000,000 records.  Elapsed time: 00:15:14s.  Time for last 1,000,000:   10s.  Last read position: chr17:27,312,807
+INFO	2021-03-31 23:23:41	AddOrReplaceReadGroups	Processed    90,000,000 records.  Elapsed time: 00:15:28s.  Time for last 1,000,000:   13s.  Last read position: chr17:38,755,910
+INFO	2021-03-31 23:23:52	AddOrReplaceReadGroups	Processed    91,000,000 records.  Elapsed time: 00:15:39s.  Time for last 1,000,000:   11s.  Last read position: chr17:43,021,945
+INFO	2021-03-31 23:24:05	AddOrReplaceReadGroups	Processed    92,000,000 records.  Elapsed time: 00:15:51s.  Time for last 1,000,000:   12s.  Last read position: chr17:58,301,672
+INFO	2021-03-31 23:24:16	AddOrReplaceReadGroups	Processed    93,000,000 records.  Elapsed time: 00:16:03s.  Time for last 1,000,000:   11s.  Last read position: chr17:75,777,678
+INFO	2021-03-31 23:24:28	AddOrReplaceReadGroups	Processed    94,000,000 records.  Elapsed time: 00:16:15s.  Time for last 1,000,000:   11s.  Last read position: chr17:81,823,484
+INFO	2021-03-31 23:24:42	AddOrReplaceReadGroups	Processed    95,000,000 records.  Elapsed time: 00:16:29s.  Time for last 1,000,000:   14s.  Last read position: chr17:82,090,936
+INFO	2021-03-31 23:24:53	AddOrReplaceReadGroups	Processed    96,000,000 records.  Elapsed time: 00:16:40s.  Time for last 1,000,000:   10s.  Last read position: chr18:57,656,889
+INFO	2021-03-31 23:25:04	AddOrReplaceReadGroups	Processed    97,000,000 records.  Elapsed time: 00:16:51s.  Time for last 1,000,000:   11s.  Last read position: chr19:1,407,598
+INFO	2021-03-31 23:25:16	AddOrReplaceReadGroups	Processed    98,000,000 records.  Elapsed time: 00:17:03s.  Time for last 1,000,000:   11s.  Last read position: chr19:3,978,150
+INFO	2021-03-31 23:25:27	AddOrReplaceReadGroups	Processed    99,000,000 records.  Elapsed time: 00:17:14s.  Time for last 1,000,000:   11s.  Last read position: chr19:6,707,134
+INFO	2021-03-31 23:25:40	AddOrReplaceReadGroups	Processed   100,000,000 records.  Elapsed time: 00:17:27s.  Time for last 1,000,000:   12s.  Last read position: chr19:11,321,827
+INFO	2021-03-31 23:25:52	AddOrReplaceReadGroups	Processed   101,000,000 records.  Elapsed time: 00:17:38s.  Time for last 1,000,000:   11s.  Last read position: chr19:17,578,080
+INFO	2021-03-31 23:26:04	AddOrReplaceReadGroups	Processed   102,000,000 records.  Elapsed time: 00:17:51s.  Time for last 1,000,000:   12s.  Last read position: chr19:35,126,707
+INFO	2021-03-31 23:26:16	AddOrReplaceReadGroups	Processed   103,000,000 records.  Elapsed time: 00:18:03s.  Time for last 1,000,000:   11s.  Last read position: chr19:42,215,233
+INFO	2021-03-31 23:26:29	AddOrReplaceReadGroups	Processed   104,000,000 records.  Elapsed time: 00:18:16s.  Time for last 1,000,000:   13s.  Last read position: chr19:44,916,301
+INFO	2021-03-31 23:26:42	AddOrReplaceReadGroups	Processed   105,000,000 records.  Elapsed time: 00:18:28s.  Time for last 1,000,000:   12s.  Last read position: chr19:48,966,283
+INFO	2021-03-31 23:26:54	AddOrReplaceReadGroups	Processed   106,000,000 records.  Elapsed time: 00:18:41s.  Time for last 1,000,000:   12s.  Last read position: chr19:54,462,815
+INFO	2021-03-31 23:27:05	AddOrReplaceReadGroups	Processed   107,000,000 records.  Elapsed time: 00:18:52s.  Time for last 1,000,000:   11s.  Last read position: chr20:5,191,825
+INFO	2021-03-31 23:27:17	AddOrReplaceReadGroups	Processed   108,000,000 records.  Elapsed time: 00:19:04s.  Time for last 1,000,000:   11s.  Last read position: chr20:35,774,836
+INFO	2021-03-31 23:27:28	AddOrReplaceReadGroups	Processed   109,000,000 records.  Elapsed time: 00:19:15s.  Time for last 1,000,000:   11s.  Last read position: chr20:59,007,046
+INFO	2021-03-31 23:27:38	AddOrReplaceReadGroups	Processed   110,000,000 records.  Elapsed time: 00:19:25s.  Time for last 1,000,000:   10s.  Last read position: chr21:8,217,695
+INFO	2021-03-31 23:27:47	AddOrReplaceReadGroups	Processed   111,000,000 records.  Elapsed time: 00:19:34s.  Time for last 1,000,000:    9s.  Last read position: chr21:26,170,589
+INFO	2021-03-31 23:28:00	AddOrReplaceReadGroups	Processed   112,000,000 records.  Elapsed time: 00:19:46s.  Time for last 1,000,000:   12s.  Last read position: chr21:46,167,471
+INFO	2021-03-31 23:28:12	AddOrReplaceReadGroups	Processed   113,000,000 records.  Elapsed time: 00:19:58s.  Time for last 1,000,000:   11s.  Last read position: chr22:26,524,968
+INFO	2021-03-31 23:28:22	AddOrReplaceReadGroups	Processed   114,000,000 records.  Elapsed time: 00:20:09s.  Time for last 1,000,000:   10s.  Last read position: chr22:38,484,050
+INFO	2021-03-31 23:28:32	AddOrReplaceReadGroups	Processed   115,000,000 records.  Elapsed time: 00:20:19s.  Time for last 1,000,000:   10s.  Last read position: chr22:46,355,095
+INFO	2021-03-31 23:28:42	AddOrReplaceReadGroups	Processed   116,000,000 records.  Elapsed time: 00:20:29s.  Time for last 1,000,000:   10s.  Last read position: chrX:47,201,501
+INFO	2021-03-31 23:28:54	AddOrReplaceReadGroups	Processed   117,000,000 records.  Elapsed time: 00:20:41s.  Time for last 1,000,000:   11s.  Last read position: chrX:109,682,788
+INFO	2021-03-31 23:29:05	AddOrReplaceReadGroups	Processed   118,000,000 records.  Elapsed time: 00:20:52s.  Time for last 1,000,000:   11s.  Last read position: chrX:154,400,464
+INFO	2021-03-31 23:29:16	AddOrReplaceReadGroups	Processed   119,000,000 records.  Elapsed time: 00:21:03s.  Time for last 1,000,000:   10s.  Last read position: chrM:2,345
+INFO	2021-03-31 23:29:27	AddOrReplaceReadGroups	Processed   120,000,000 records.  Elapsed time: 00:21:14s.  Time for last 1,000,000:   11s.  Last read position: chrM:5,473
+INFO	2021-03-31 23:29:39	AddOrReplaceReadGroups	Processed   121,000,000 records.  Elapsed time: 00:21:25s.  Time for last 1,000,000:   11s.  Last read position: chrM:6,812
+INFO	2021-03-31 23:29:49	AddOrReplaceReadGroups	Processed   122,000,000 records.  Elapsed time: 00:21:36s.  Time for last 1,000,000:   10s.  Last read position: chrM:8,078
+INFO	2021-03-31 23:30:00	AddOrReplaceReadGroups	Processed   123,000,000 records.  Elapsed time: 00:21:47s.  Time for last 1,000,000:   11s.  Last read position: chrM:9,456
+INFO	2021-03-31 23:30:12	AddOrReplaceReadGroups	Processed   124,000,000 records.  Elapsed time: 00:21:59s.  Time for last 1,000,000:   11s.  Last read position: chrM:11,851
+INFO	2021-03-31 23:30:23	AddOrReplaceReadGroups	Processed   125,000,000 records.  Elapsed time: 00:22:10s.  Time for last 1,000,000:   11s.  Last read position: chr11_KI270721v1_random:50,694
+INFO	2021-03-31 23:30:33	AddOrReplaceReadGroups	Processed   126,000,000 records.  Elapsed time: 00:22:20s.  Time for last 1,000,000:   10s.  Last read position: chr11_KI270721v1_random:51,837
+INFO	2021-03-31 23:30:43	AddOrReplaceReadGroups	Processed   127,000,000 records.  Elapsed time: 00:22:30s.  Time for last 1,000,000:    9s.  Last read position: chr11_KI270721v1_random:52,577
+INFO	2021-03-31 23:30:52	AddOrReplaceReadGroups	Processed   128,000,000 records.  Elapsed time: 00:22:39s.  Time for last 1,000,000:    8s.  Last read position: chr22_KI270733v1_random:134,818
+INFO	2021-03-31 23:31:01	AddOrReplaceReadGroups	Processed   129,000,000 records.  Elapsed time: 00:22:48s.  Time for last 1,000,000:    8s.  Last read position: chrUn_GL000220v1:153,459
+INFO	2021-03-31 23:31:10	AddOrReplaceReadGroups	Processed   130,000,000 records.  Elapsed time: 00:22:57s.  Time for last 1,000,000:    9s.  Last read position: chr6_GL000250v2_alt:3,167,787
+INFO	2021-03-31 23:31:21	AddOrReplaceReadGroups	Processed   131,000,000 records.  Elapsed time: 00:23:08s.  Time for last 1,000,000:   10s.  Last read position: chr16_KI270853v1_alt:873,810
+INFO	2021-03-31 23:31:33	AddOrReplaceReadGroups	Processed   132,000,000 records.  Elapsed time: 00:23:20s.  Time for last 1,000,000:   12s.  Last read position: chr21_KI270872v1_alt:52,445
+INFO	2021-03-31 23:31:43	AddOrReplaceReadGroups	Processed   133,000,000 records.  Elapsed time: 00:23:30s.  Time for last 1,000,000:    9s.  Last read position: chr6_GL000251v2_alt:4,360,849
+INFO	2021-03-31 23:31:54	AddOrReplaceReadGroups	Processed   134,000,000 records.  Elapsed time: 00:23:41s.  Time for last 1,000,000:   10s.  Last read position: chr6_GL000252v2_alt:2,975,427
+INFO	2021-03-31 23:32:04	AddOrReplaceReadGroups	Processed   135,000,000 records.  Elapsed time: 00:23:51s.  Time for last 1,000,000:    9s.  Last read position: chr6_GL000253v2_alt:3,038,914
+INFO	2021-03-31 23:32:14	AddOrReplaceReadGroups	Processed   136,000,000 records.  Elapsed time: 00:24:01s.  Time for last 1,000,000:   10s.  Last read position: chr19_GL949750v2_alt:181,400
+INFO	2021-03-31 23:32:24	AddOrReplaceReadGroups	Processed   137,000,000 records.  Elapsed time: 00:24:11s.  Time for last 1,000,000:   10s.  Last read position: chr6_GL000256v2_alt:1,793,682
+INFO	2021-03-31 23:32:34	AddOrReplaceReadGroups	Processed   138,000,000 records.  Elapsed time: 00:24:21s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2021-03-31 23:32:47	AddOrReplaceReadGroups	Processed   139,000,000 records.  Elapsed time: 00:24:34s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2021-03-31 23:33:00	AddOrReplaceReadGroups	Processed   140,000,000 records.  Elapsed time: 00:24:46s.  Time for last 1,000,000:   12s.  Last read position: */*
+[Wed Mar 31 23:33:08 CST 2021] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 24.93 minutes.
+Runtime.totalMemory()=1279262720
+INFO	2021-03-31 23:33:09	MarkDuplicates	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    MarkDuplicates -INPUT aln_sorted_add.bam -OUTPUT aln_sorted_mdup.bam -M aln_sorted_mdup.metrics -CREATE_INDEX true
+**********
+
+
+23:33:09.649 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/fuqc/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Mar 31 23:33:09 CST 2021] MarkDuplicates INPUT=[aln_sorted_add.bam] OUTPUT=aln_sorted_mdup.bam METRICS_FILE=aln_sorted_mdup.metrics CREATE_INDEX=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 TAG_DUPLICATE_SET_MEMBERS=false REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag CLEAR_DT=true DUPLEX_UMI=false ADD_PG_TAG_TO_READS=true REMOVE_DUPLICATES=false ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 MAX_OPTICAL_DUPLICATE_SET_SIZE=300000 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Wed Mar 31 23:33:09 CST 2021] Executing as fuqc@yuzj-pc on Linux 5.10.0-5-amd64 amd64; OpenJDK 64-Bit Server VM 11.0.11-ea+4-post-Debian-1; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.25.1
+INFO	2021-03-31 23:33:09	MarkDuplicates	Start of doWork freeMemory: 178292224; totalMemory: 184549376; maxMemory: 16869490688
+INFO	2021-03-31 23:33:09	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2021-03-31 23:33:09	MarkDuplicates	Will retain up to 61121343 data points before spilling to disk.
+INFO	2021-03-31 23:33:15	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:05s.  Time for last 1,000,000:    5s.  Last read position: chr1:1,727,452
+INFO	2021-03-31 23:33:15	MarkDuplicates	Tracking 72730 as yet unmatched pairs. 2711 records in RAM.
+INFO	2021-03-31 23:33:20	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:10s.  Time for last 1,000,000:    5s.  Last read position: chr1:17,634,908
+INFO	2021-03-31 23:33:20	MarkDuplicates	Tracking 73173 as yet unmatched pairs. 701 records in RAM.
+INFO	2021-03-31 23:33:25	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    4s.  Last read position: chr1:32,334,019
+INFO	2021-03-31 23:33:25	MarkDuplicates	Tracking 76088 as yet unmatched pairs. 1579 records in RAM.
+INFO	2021-03-31 23:33:29	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    4s.  Last read position: chr1:51,909,283
+INFO	2021-03-31 23:33:29	MarkDuplicates	Tracking 77104 as yet unmatched pairs. 635 records in RAM.
+INFO	2021-03-31 23:33:34	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:    4s.  Last read position: chr1:95,194,596
+INFO	2021-03-31 23:33:34	MarkDuplicates	Tracking 79319 as yet unmatched pairs. 640 records in RAM.
+INFO	2021-03-31 23:33:37	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:    3s.  Last read position: chr1:150,265,974
+INFO	2021-03-31 23:33:37	MarkDuplicates	Tracking 82746 as yet unmatched pairs. 1706 records in RAM.
+INFO	2021-03-31 23:33:41	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:    3s.  Last read position: chr1:155,172,625
+INFO	2021-03-31 23:33:41	MarkDuplicates	Tracking 84896 as yet unmatched pairs. 1886 records in RAM.
+INFO	2021-03-31 23:33:46	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    4s.  Last read position: chr1:160,994,087
+INFO	2021-03-31 23:33:46	MarkDuplicates	Tracking 85932 as yet unmatched pairs. 756 records in RAM.
+INFO	2021-03-31 23:33:50	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    4s.  Last read position: chr1:165,743,299
+INFO	2021-03-31 23:33:50	MarkDuplicates	Tracking 88179 as yet unmatched pairs. 1226 records in RAM.
+INFO	2021-03-31 23:33:55	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    4s.  Last read position: chr1:202,580,596
+INFO	2021-03-31 23:33:55	MarkDuplicates	Tracking 89144 as yet unmatched pairs. 420 records in RAM.
+INFO	2021-03-31 23:33:59	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    4s.  Last read position: chr1:225,924,105
+INFO	2021-03-31 23:33:59	MarkDuplicates	Tracking 91623 as yet unmatched pairs. 741 records in RAM.
+INFO	2021-03-31 23:34:03	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    4s.  Last read position: chr2:3,454,858
+INFO	2021-03-31 23:34:03	MarkDuplicates	Tracking 92831 as yet unmatched pairs. 1746 records in RAM.
+INFO	2021-03-31 23:34:08	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:57s.  Time for last 1,000,000:    4s.  Last read position: chr2:42,280,957
+INFO	2021-03-31 23:34:08	MarkDuplicates	Tracking 95292 as yet unmatched pairs. 1980 records in RAM.
+INFO	2021-03-31 23:34:12	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:    4s.  Last read position: chr2:70,210,502
+INFO	2021-03-31 23:34:12	MarkDuplicates	Tracking 96599 as yet unmatched pairs. 1602 records in RAM.
+INFO	2021-03-31 23:34:16	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    4s.  Last read position: chr2:100,990,780
+INFO	2021-03-31 23:34:16	MarkDuplicates	Tracking 98478 as yet unmatched pairs. 1281 records in RAM.
+INFO	2021-03-31 23:34:21	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:    4s.  Last read position: chr2:152,663,136
+INFO	2021-03-31 23:34:21	MarkDuplicates	Tracking 100392 as yet unmatched pairs. 926 records in RAM.
+INFO	2021-03-31 23:34:25	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    4s.  Last read position: chr2:205,619,550
+INFO	2021-03-31 23:34:25	MarkDuplicates	Tracking 102030 as yet unmatched pairs. 410 records in RAM.
+INFO	2021-03-31 23:34:30	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    4s.  Last read position: chr2:231,455,054
+INFO	2021-03-31 23:34:30	MarkDuplicates	Tracking 104993 as yet unmatched pairs. 1723 records in RAM.
+INFO	2021-03-31 23:34:36	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:    6s.  Last read position: chr3:12,936,381
+INFO	2021-03-31 23:34:36	MarkDuplicates	Tracking 105433 as yet unmatched pairs. 2153 records in RAM.
+INFO	2021-03-31 23:34:41	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:01:31s.  Time for last 1,000,000:    4s.  Last read position: chr3:48,609,259
+INFO	2021-03-31 23:34:41	MarkDuplicates	Tracking 106954 as yet unmatched pairs. 1555 records in RAM.
+INFO	2021-03-31 23:34:45	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:    3s.  Last read position: chr3:94,060,791
+INFO	2021-03-31 23:34:45	MarkDuplicates	Tracking 108423 as yet unmatched pairs. 1248 records in RAM.
+INFO	2021-03-31 23:34:50	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    4s.  Last read position: chr3:133,746,406
+INFO	2021-03-31 23:34:50	MarkDuplicates	Tracking 115072 as yet unmatched pairs. 5623 records in RAM.
+INFO	2021-03-31 23:34:55	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    4s.  Last read position: chr3:156,540,410
+INFO	2021-03-31 23:34:55	MarkDuplicates	Tracking 111746 as yet unmatched pairs. 739 records in RAM.
+INFO	2021-03-31 23:34:59	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:01:48s.  Time for last 1,000,000:    4s.  Last read position: chr3:186,620,730
+INFO	2021-03-31 23:34:59	MarkDuplicates	Tracking 129417 as yet unmatched pairs. 16654 records in RAM.
+INFO	2021-03-31 23:35:03	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:01:53s.  Time for last 1,000,000:    4s.  Last read position: chr4:1,001,551
+INFO	2021-03-31 23:35:03	MarkDuplicates	Tracking 115076 as yet unmatched pairs. 2008 records in RAM.
+INFO	2021-03-31 23:35:08	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:01:57s.  Time for last 1,000,000:    4s.  Last read position: chr4:37,606,480
+INFO	2021-03-31 23:35:08	MarkDuplicates	Tracking 116119 as yet unmatched pairs. 1426 records in RAM.
+INFO	2021-03-31 23:35:12	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:02:02s.  Time for last 1,000,000:    4s.  Last read position: chr4:73,404,318
+INFO	2021-03-31 23:35:12	MarkDuplicates	Tracking 193657 as yet unmatched pairs. 77119 records in RAM.
+INFO	2021-03-31 23:35:16	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    4s.  Last read position: chr4:73,412,112
+INFO	2021-03-31 23:35:16	MarkDuplicates	Tracking 195431 as yet unmatched pairs. 77946 records in RAM.
+INFO	2021-03-31 23:35:21	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:02:11s.  Time for last 1,000,000:    5s.  Last read position: chr4:73,418,300
+INFO	2021-03-31 23:35:21	MarkDuplicates	Tracking 187776 as yet unmatched pairs. 69389 records in RAM.
+INFO	2021-03-31 23:35:25	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:02:15s.  Time for last 1,000,000:    4s.  Last read position: chr4:145,121,345
+INFO	2021-03-31 23:35:25	MarkDuplicates	Tracking 120560 as yet unmatched pairs. 386 records in RAM.
+INFO	2021-03-31 23:35:30	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    4s.  Last read position: chr5:39,371,972
+INFO	2021-03-31 23:35:30	MarkDuplicates	Tracking 122414 as yet unmatched pairs. 1641 records in RAM.
+INFO	2021-03-31 23:35:33	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:02:23s.  Time for last 1,000,000:    3s.  Last read position: chr5:88,761,255
+INFO	2021-03-31 23:35:33	MarkDuplicates	Tracking 123685 as yet unmatched pairs. 1120 records in RAM.
+INFO	2021-03-31 23:35:38	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:    4s.  Last read position: chr5:149,995,874
+INFO	2021-03-31 23:35:38	MarkDuplicates	Tracking 125228 as yet unmatched pairs. 595 records in RAM.
+INFO	2021-03-31 23:35:42	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:02:32s.  Time for last 1,000,000:    4s.  Last read position: chr5:181,241,556
+INFO	2021-03-31 23:35:42	MarkDuplicates	Tracking 133949 as yet unmatched pairs. 4519 records in RAM.
+INFO	2021-03-31 23:35:47	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:02:36s.  Time for last 1,000,000:    4s.  Last read position: chr6:30,914,982
+INFO	2021-03-31 23:35:47	MarkDuplicates	Tracking 130909 as yet unmatched pairs. 2484 records in RAM.
+INFO	2021-03-31 23:35:50	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:02:40s.  Time for last 1,000,000:    3s.  Last read position: chr6:34,872,490
+INFO	2021-03-31 23:35:50	MarkDuplicates	Tracking 132469 as yet unmatched pairs. 2259 records in RAM.
+INFO	2021-03-31 23:35:55	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:02:44s.  Time for last 1,000,000:    4s.  Last read position: chr6:52,415,826
+INFO	2021-03-31 23:35:55	MarkDuplicates	Tracking 133362 as yet unmatched pairs. 1556 records in RAM.
+INFO	2021-03-31 23:35:59	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:02:49s.  Time for last 1,000,000:    4s.  Last read position: chr6:75,253,753
+INFO	2021-03-31 23:35:59	MarkDuplicates	Tracking 134979 as yet unmatched pairs. 1140 records in RAM.
+INFO	2021-03-31 23:36:04	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:02:53s.  Time for last 1,000,000:    4s.  Last read position: chr6:137,203,568
+INFO	2021-03-31 23:36:04	MarkDuplicates	Tracking 135997 as yet unmatched pairs. 530 records in RAM.
+INFO	2021-03-31 23:36:08	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:02:58s.  Time for last 1,000,000:    4s.  Last read position: chr7:1,502,916
+INFO	2021-03-31 23:36:08	MarkDuplicates	Tracking 137276 as yet unmatched pairs. 4071 records in RAM.
+INFO	2021-03-31 23:36:12	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:    4s.  Last read position: chr7:6,621,528
+INFO	2021-03-31 23:36:12	MarkDuplicates	Tracking 137919 as yet unmatched pairs. 3428 records in RAM.
+INFO	2021-03-31 23:36:17	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:03:06s.  Time for last 1,000,000:    4s.  Last read position: chr7:44,212,531
+INFO	2021-03-31 23:36:17	MarkDuplicates	Tracking 138907 as yet unmatched pairs. 2926 records in RAM.
+INFO	2021-03-31 23:36:22	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:03:11s.  Time for last 1,000,000:    4s.  Last read position: chr7:73,607,418
+INFO	2021-03-31 23:36:22	MarkDuplicates	Tracking 141610 as yet unmatched pairs. 3816 records in RAM.
+INFO	2021-03-31 23:36:26	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:    4s.  Last read position: chr7:100,577,318
+INFO	2021-03-31 23:36:26	MarkDuplicates	Tracking 141094 as yet unmatched pairs. 1824 records in RAM.
+INFO	2021-03-31 23:36:31	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:03:21s.  Time for last 1,000,000:    4s.  Last read position: chr7:140,728,412
+INFO	2021-03-31 23:36:31	MarkDuplicates	Tracking 141370 as yet unmatched pairs. 331 records in RAM.
+INFO	2021-03-31 23:36:36	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:03:26s.  Time for last 1,000,000:    4s.  Last read position: chr8:22,103,070
+INFO	2021-03-31 23:36:36	MarkDuplicates	Tracking 142119 as yet unmatched pairs. 2131 records in RAM.
+INFO	2021-03-31 23:36:40	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:03:30s.  Time for last 1,000,000:    4s.  Last read position: chr8:66,921,651
+INFO	2021-03-31 23:36:40	MarkDuplicates	Tracking 142788 as yet unmatched pairs. 1283 records in RAM.
+INFO	2021-03-31 23:36:45	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:03:34s.  Time for last 1,000,000:    4s.  Last read position: chr8:125,003,243
+INFO	2021-03-31 23:36:45	MarkDuplicates	Tracking 144989 as yet unmatched pairs. 2072 records in RAM.
+INFO	2021-03-31 23:36:49	MarkDuplicates	Read    49,000,000 records.  Elapsed time: 00:03:39s.  Time for last 1,000,000:    4s.  Last read position: chr9:4,728,151
+INFO	2021-03-31 23:36:49	MarkDuplicates	Tracking 144777 as yet unmatched pairs. 4605 records in RAM.
+INFO	2021-03-31 23:36:54	MarkDuplicates	Read    50,000,000 records.  Elapsed time: 00:03:44s.  Time for last 1,000,000:    5s.  Last read position: chr9:83,938,857
+INFO	2021-03-31 23:36:54	MarkDuplicates	Tracking 144773 as yet unmatched pairs. 3083 records in RAM.
+INFO	2021-03-31 23:36:59	MarkDuplicates	Read    51,000,000 records.  Elapsed time: 00:03:49s.  Time for last 1,000,000:    5s.  Last read position: chr9:120,787,873
+INFO	2021-03-31 23:36:59	MarkDuplicates	Tracking 145422 as yet unmatched pairs. 2469 records in RAM.
+INFO	2021-03-31 23:37:04	MarkDuplicates	Read    52,000,000 records.  Elapsed time: 00:03:54s.  Time for last 1,000,000:    4s.  Last read position: chr9:133,395,669
+INFO	2021-03-31 23:37:04	MarkDuplicates	Tracking 144755 as yet unmatched pairs. 515 records in RAM.
+INFO	2021-03-31 23:37:08	MarkDuplicates	Read    53,000,000 records.  Elapsed time: 00:03:58s.  Time for last 1,000,000:    4s.  Last read position: chr10:22,318,126
+INFO	2021-03-31 23:37:08	MarkDuplicates	Tracking 145451 as yet unmatched pairs. 2807 records in RAM.
+INFO	2021-03-31 23:37:13	MarkDuplicates	Read    54,000,000 records.  Elapsed time: 00:04:03s.  Time for last 1,000,000:    4s.  Last read position: chr10:78,033,863
+INFO	2021-03-31 23:37:13	MarkDuplicates	Tracking 145710 as yet unmatched pairs. 1840 records in RAM.
+INFO	2021-03-31 23:37:18	MarkDuplicates	Read    55,000,000 records.  Elapsed time: 00:04:07s.  Time for last 1,000,000:    4s.  Last read position: chr10:100,361,872
+INFO	2021-03-31 23:37:18	MarkDuplicates	Tracking 152076 as yet unmatched pairs. 6789 records in RAM.
+INFO	2021-03-31 23:37:22	MarkDuplicates	Read    56,000,000 records.  Elapsed time: 00:04:12s.  Time for last 1,000,000:    4s.  Last read position: chr10:133,402,088
+INFO	2021-03-31 23:37:22	MarkDuplicates	Tracking 146960 as yet unmatched pairs. 396 records in RAM.
+INFO	2021-03-31 23:37:27	MarkDuplicates	Read    57,000,000 records.  Elapsed time: 00:04:17s.  Time for last 1,000,000:    4s.  Last read position: chr11:1,995,462
+INFO	2021-03-31 23:37:27	MarkDuplicates	Tracking 186503 as yet unmatched pairs. 51517 records in RAM.
+INFO	2021-03-31 23:37:31	MarkDuplicates	Read    58,000,000 records.  Elapsed time: 00:04:21s.  Time for last 1,000,000:    3s.  Last read position: chr11:1,996,361
+INFO	2021-03-31 23:37:31	MarkDuplicates	Tracking 236694 as yet unmatched pairs. 99587 records in RAM.
+INFO	2021-03-31 23:37:35	MarkDuplicates	Read    59,000,000 records.  Elapsed time: 00:04:25s.  Time for last 1,000,000:    3s.  Last read position: chr11:1,997,176
+INFO	2021-03-31 23:37:35	MarkDuplicates	Tracking 187518 as yet unmatched pairs. 47995 records in RAM.
+INFO	2021-03-31 23:37:39	MarkDuplicates	Read    60,000,000 records.  Elapsed time: 00:04:28s.  Time for last 1,000,000:    3s.  Last read position: chr11:2,129,416
+INFO	2021-03-31 23:37:39	MarkDuplicates	Tracking 201643 as yet unmatched pairs. 59575 records in RAM.
+INFO	2021-03-31 23:37:43	MarkDuplicates	Read    61,000,000 records.  Elapsed time: 00:04:32s.  Time for last 1,000,000:    4s.  Last read position: chr11:2,131,226
+INFO	2021-03-31 23:37:43	MarkDuplicates	Tracking 195642 as yet unmatched pairs. 52604 records in RAM.
+INFO	2021-03-31 23:37:47	MarkDuplicates	Read    62,000,000 records.  Elapsed time: 00:04:36s.  Time for last 1,000,000:    3s.  Last read position: chr11:2,133,089
+INFO	2021-03-31 23:37:47	MarkDuplicates	Tracking 202589 as yet unmatched pairs. 55646 records in RAM.
+INFO	2021-03-31 23:37:51	MarkDuplicates	Read    63,000,000 records.  Elapsed time: 00:04:41s.  Time for last 1,000,000:    4s.  Last read position: chr11:9,573,703
+INFO	2021-03-31 23:37:51	MarkDuplicates	Tracking 155098 as yet unmatched pairs. 6367 records in RAM.
+INFO	2021-03-31 23:37:55	MarkDuplicates	Read    64,000,000 records.  Elapsed time: 00:04:45s.  Time for last 1,000,000:    4s.  Last read position: chr11:47,580,594
+INFO	2021-03-31 23:37:55	MarkDuplicates	Tracking 155475 as yet unmatched pairs. 5692 records in RAM.
+INFO	2021-03-31 23:38:00	MarkDuplicates	Read    65,000,000 records.  Elapsed time: 00:04:49s.  Time for last 1,000,000:    4s.  Last read position: chr11:62,576,397
+INFO	2021-03-31 23:38:00	MarkDuplicates	Tracking 154911 as yet unmatched pairs. 4084 records in RAM.
+INFO	2021-03-31 23:38:04	MarkDuplicates	Read    66,000,000 records.  Elapsed time: 00:04:54s.  Time for last 1,000,000:    4s.  Last read position: chr11:65,540,146
+INFO	2021-03-31 23:38:04	MarkDuplicates	Tracking 155515 as yet unmatched pairs. 3679 records in RAM.
+INFO	2021-03-31 23:38:09	MarkDuplicates	Read    67,000,000 records.  Elapsed time: 00:04:59s.  Time for last 1,000,000:    4s.  Last read position: chr11:67,507,685
+INFO	2021-03-31 23:38:09	MarkDuplicates	Tracking 155212 as yet unmatched pairs. 2421 records in RAM.
+INFO	2021-03-31 23:38:41	MarkDuplicates	Read    68,000,000 records.  Elapsed time: 00:05:30s.  Time for last 1,000,000:   31s.  Last read position: chr11:82,850,431
+INFO	2021-03-31 23:38:41	MarkDuplicates	Tracking 154956 as yet unmatched pairs. 1227 records in RAM.
+INFO	2021-03-31 23:38:46	MarkDuplicates	Read    69,000,000 records.  Elapsed time: 00:05:35s.  Time for last 1,000,000:    5s.  Last read position: chr12:752,880
+INFO	2021-03-31 23:38:46	MarkDuplicates	Tracking 154846 as yet unmatched pairs. 6985 records in RAM.
+INFO	2021-03-31 23:38:51	MarkDuplicates	Read    70,000,000 records.  Elapsed time: 00:05:41s.  Time for last 1,000,000:    5s.  Last read position: chr12:12,477,435
+INFO	2021-03-31 23:38:51	MarkDuplicates	Tracking 154650 as yet unmatched pairs. 5737 records in RAM.
+INFO	2021-03-31 23:38:55	MarkDuplicates	Read    71,000,000 records.  Elapsed time: 00:05:45s.  Time for last 1,000,000:    4s.  Last read position: chr12:53,041,360
+INFO	2021-03-31 23:38:55	MarkDuplicates	Tracking 155011 as yet unmatched pairs. 5075 records in RAM.
+INFO	2021-03-31 23:38:59	MarkDuplicates	Read    72,000,000 records.  Elapsed time: 00:05:49s.  Time for last 1,000,000:    4s.  Last read position: chr12:57,266,734
+INFO	2021-03-31 23:38:59	MarkDuplicates	Tracking 154891 as yet unmatched pairs. 3658 records in RAM.
+INFO	2021-03-31 23:39:03	MarkDuplicates	Read    73,000,000 records.  Elapsed time: 00:05:53s.  Time for last 1,000,000:    3s.  Last read position: chr12:104,886,416
+INFO	2021-03-31 23:39:03	MarkDuplicates	Tracking 154147 as yet unmatched pairs. 1954 records in RAM.
+INFO	2021-03-31 23:39:07	MarkDuplicates	Read    74,000,000 records.  Elapsed time: 00:05:57s.  Time for last 1,000,000:    3s.  Last read position: chr12:121,779,107
+INFO	2021-03-31 23:39:07	MarkDuplicates	Tracking 155466 as yet unmatched pairs. 884 records in RAM.
+INFO	2021-03-31 23:39:11	MarkDuplicates	Read    75,000,000 records.  Elapsed time: 00:06:01s.  Time for last 1,000,000:    4s.  Last read position: chr13:41,358,325
+INFO	2021-03-31 23:39:11	MarkDuplicates	Tracking 155179 as yet unmatched pairs. 1172 records in RAM.
+INFO	2021-03-31 23:39:16	MarkDuplicates	Read    76,000,000 records.  Elapsed time: 00:06:05s.  Time for last 1,000,000:    4s.  Last read position: chr14:20,458,280
+INFO	2021-03-31 23:39:16	MarkDuplicates	Tracking 155331 as yet unmatched pairs. 3896 records in RAM.
+INFO	2021-03-31 23:39:20	MarkDuplicates	Read    77,000,000 records.  Elapsed time: 00:06:10s.  Time for last 1,000,000:    4s.  Last read position: chr14:52,620,235
+INFO	2021-03-31 23:39:20	MarkDuplicates	Tracking 154501 as yet unmatched pairs. 1955 records in RAM.
+INFO	2021-03-31 23:39:24	MarkDuplicates	Read    78,000,000 records.  Elapsed time: 00:06:14s.  Time for last 1,000,000:    4s.  Last read position: chr14:94,587,436
+INFO	2021-03-31 23:39:24	MarkDuplicates	Tracking 159225 as yet unmatched pairs. 5658 records in RAM.
+INFO	2021-03-31 23:39:28	MarkDuplicates	Read    79,000,000 records.  Elapsed time: 00:06:18s.  Time for last 1,000,000:    4s.  Last read position: chr15:34,382,211
+INFO	2021-03-31 23:39:28	MarkDuplicates	Tracking 155499 as yet unmatched pairs. 5326 records in RAM.
+INFO	2021-03-31 23:39:32	MarkDuplicates	Read    80,000,000 records.  Elapsed time: 00:06:22s.  Time for last 1,000,000:    4s.  Last read position: chr15:58,453,924
+INFO	2021-03-31 23:39:32	MarkDuplicates	Tracking 154397 as yet unmatched pairs. 3389 records in RAM.
+INFO	2021-03-31 23:39:36	MarkDuplicates	Read    81,000,000 records.  Elapsed time: 00:06:26s.  Time for last 1,000,000:    3s.  Last read position: chr15:77,056,124
+INFO	2021-03-31 23:39:36	MarkDuplicates	Tracking 154051 as yet unmatched pairs. 2277 records in RAM.
+INFO	2021-03-31 23:39:40	MarkDuplicates	Read    82,000,000 records.  Elapsed time: 00:06:30s.  Time for last 1,000,000:    4s.  Last read position: chr16:407,883
+INFO	2021-03-31 23:39:40	MarkDuplicates	Tracking 152912 as yet unmatched pairs. 6976 records in RAM.
+INFO	2021-03-31 23:39:44	MarkDuplicates	Read    83,000,000 records.  Elapsed time: 00:06:34s.  Time for last 1,000,000:    3s.  Last read position: chr16:11,351,065
+INFO	2021-03-31 23:39:44	MarkDuplicates	Tracking 151599 as yet unmatched pairs. 4723 records in RAM.
+INFO	2021-03-31 23:39:48	MarkDuplicates	Read    84,000,000 records.  Elapsed time: 00:06:37s.  Time for last 1,000,000:    3s.  Last read position: chr16:23,453,001
+INFO	2021-03-31 23:39:48	MarkDuplicates	Tracking 152381 as yet unmatched pairs. 4325 records in RAM.
+INFO	2021-03-31 23:39:52	MarkDuplicates	Read    85,000,000 records.  Elapsed time: 00:06:41s.  Time for last 1,000,000:    4s.  Last read position: chr16:30,988,266
+INFO	2021-03-31 23:39:52	MarkDuplicates	Tracking 151735 as yet unmatched pairs. 2953 records in RAM.
+INFO	2021-03-31 23:39:56	MarkDuplicates	Read    86,000,000 records.  Elapsed time: 00:06:45s.  Time for last 1,000,000:    3s.  Last read position: chr16:74,632,528
+INFO	2021-03-31 23:39:56	MarkDuplicates	Tracking 150717 as yet unmatched pairs. 1089 records in RAM.
+INFO	2021-03-31 23:40:00	MarkDuplicates	Read    87,000,000 records.  Elapsed time: 00:06:49s.  Time for last 1,000,000:    3s.  Last read position: chr17:1,769,961
+INFO	2021-03-31 23:40:00	MarkDuplicates	Tracking 155417 as yet unmatched pairs. 16076 records in RAM.
+INFO	2021-03-31 23:40:03	MarkDuplicates	Read    88,000,000 records.  Elapsed time: 00:06:53s.  Time for last 1,000,000:    3s.  Last read position: chr17:7,463,274
+INFO	2021-03-31 23:40:03	MarkDuplicates	Tracking 150077 as yet unmatched pairs. 10108 records in RAM.
+INFO	2021-03-31 23:40:08	MarkDuplicates	Read    89,000,000 records.  Elapsed time: 00:06:57s.  Time for last 1,000,000:    4s.  Last read position: chr17:27,312,807
+INFO	2021-03-31 23:40:08	MarkDuplicates	Tracking 149242 as yet unmatched pairs. 8572 records in RAM.
+INFO	2021-03-31 23:40:12	MarkDuplicates	Read    90,000,000 records.  Elapsed time: 00:07:01s.  Time for last 1,000,000:    4s.  Last read position: chr17:38,755,910
+INFO	2021-03-31 23:40:12	MarkDuplicates	Tracking 148924 as yet unmatched pairs. 7298 records in RAM.
+INFO	2021-03-31 23:40:16	MarkDuplicates	Read    91,000,000 records.  Elapsed time: 00:07:05s.  Time for last 1,000,000:    3s.  Last read position: chr17:43,021,945
+INFO	2021-03-31 23:40:16	MarkDuplicates	Tracking 148514 as yet unmatched pairs. 6333 records in RAM.
+INFO	2021-03-31 23:40:19	MarkDuplicates	Read    92,000,000 records.  Elapsed time: 00:07:09s.  Time for last 1,000,000:    3s.  Last read position: chr17:58,301,672
+INFO	2021-03-31 23:40:19	MarkDuplicates	Tracking 147129 as yet unmatched pairs. 4251 records in RAM.
+INFO	2021-03-31 23:40:23	MarkDuplicates	Read    93,000,000 records.  Elapsed time: 00:07:13s.  Time for last 1,000,000:    3s.  Last read position: chr17:75,777,678
+INFO	2021-03-31 23:40:23	MarkDuplicates	Tracking 146997 as yet unmatched pairs. 3437 records in RAM.
+INFO	2021-03-31 23:40:27	MarkDuplicates	Read    94,000,000 records.  Elapsed time: 00:07:17s.  Time for last 1,000,000:    3s.  Last read position: chr17:81,823,484
+INFO	2021-03-31 23:40:27	MarkDuplicates	Tracking 146255 as yet unmatched pairs. 2098 records in RAM.
+INFO	2021-03-31 23:40:31	MarkDuplicates	Read    95,000,000 records.  Elapsed time: 00:07:21s.  Time for last 1,000,000:    4s.  Last read position: chr17:82,090,936
+INFO	2021-03-31 23:40:31	MarkDuplicates	Tracking 149498 as yet unmatched pairs. 4866 records in RAM.
+INFO	2021-03-31 23:40:35	MarkDuplicates	Read    96,000,000 records.  Elapsed time: 00:07:25s.  Time for last 1,000,000:    4s.  Last read position: chr18:57,656,889
+INFO	2021-03-31 23:40:35	MarkDuplicates	Tracking 144021 as yet unmatched pairs. 330 records in RAM.
+INFO	2021-03-31 23:40:40	MarkDuplicates	Read    97,000,000 records.  Elapsed time: 00:07:29s.  Time for last 1,000,000:    4s.  Last read position: chr19:1,407,598
+INFO	2021-03-31 23:40:40	MarkDuplicates	Tracking 143206 as yet unmatched pairs. 14999 records in RAM.
+INFO	2021-03-31 23:40:44	MarkDuplicates	Read    98,000,000 records.  Elapsed time: 00:07:33s.  Time for last 1,000,000:    4s.  Last read position: chr19:3,978,150
+INFO	2021-03-31 23:40:44	MarkDuplicates	Tracking 152471 as yet unmatched pairs. 23864 records in RAM.
+INFO	2021-03-31 23:40:48	MarkDuplicates	Read    99,000,000 records.  Elapsed time: 00:07:37s.  Time for last 1,000,000:    3s.  Last read position: chr19:6,707,134
+INFO	2021-03-31 23:40:48	MarkDuplicates	Tracking 144143 as yet unmatched pairs. 15168 records in RAM.
+INFO	2021-03-31 23:40:52	MarkDuplicates	Read   100,000,000 records.  Elapsed time: 00:07:41s.  Time for last 1,000,000:    3s.  Last read position: chr19:11,321,827
+INFO	2021-03-31 23:40:52	MarkDuplicates	Tracking 139675 as yet unmatched pairs. 10295 records in RAM.
+INFO	2021-03-31 23:40:55	MarkDuplicates	Read   101,000,000 records.  Elapsed time: 00:07:45s.  Time for last 1,000,000:    3s.  Last read position: chr19:17,578,080
+INFO	2021-03-31 23:40:55	MarkDuplicates	Tracking 138943 as yet unmatched pairs. 9010 records in RAM.
+INFO	2021-03-31 23:40:59	MarkDuplicates	Read   102,000,000 records.  Elapsed time: 00:07:49s.  Time for last 1,000,000:    3s.  Last read position: chr19:35,126,707
+INFO	2021-03-31 23:40:59	MarkDuplicates	Tracking 137419 as yet unmatched pairs. 7034 records in RAM.
+INFO	2021-03-31 23:41:03	MarkDuplicates	Read   103,000,000 records.  Elapsed time: 00:07:53s.  Time for last 1,000,000:    4s.  Last read position: chr19:42,215,233
+INFO	2021-03-31 23:41:03	MarkDuplicates	Tracking 136270 as yet unmatched pairs. 5435 records in RAM.
+INFO	2021-03-31 23:41:08	MarkDuplicates	Read   104,000,000 records.  Elapsed time: 00:07:57s.  Time for last 1,000,000:    4s.  Last read position: chr19:44,916,301
+INFO	2021-03-31 23:41:08	MarkDuplicates	Tracking 153078 as yet unmatched pairs. 21917 records in RAM.
+INFO	2021-03-31 23:41:12	MarkDuplicates	Read   105,000,000 records.  Elapsed time: 00:08:02s.  Time for last 1,000,000:    4s.  Last read position: chr19:48,966,283
+INFO	2021-03-31 23:41:12	MarkDuplicates	Tracking 164487 as yet unmatched pairs. 32775 records in RAM.
+INFO	2021-03-31 23:41:16	MarkDuplicates	Read   106,000,000 records.  Elapsed time: 00:08:06s.  Time for last 1,000,000:    3s.  Last read position: chr19:54,462,815
+INFO	2021-03-31 23:41:16	MarkDuplicates	Tracking 133324 as yet unmatched pairs. 976 records in RAM.
+INFO	2021-03-31 23:41:20	MarkDuplicates	Read   107,000,000 records.  Elapsed time: 00:08:10s.  Time for last 1,000,000:    4s.  Last read position: chr20:5,191,825
+INFO	2021-03-31 23:41:20	MarkDuplicates	Tracking 132019 as yet unmatched pairs. 4431 records in RAM.
+INFO	2021-03-31 23:41:24	MarkDuplicates	Read   108,000,000 records.  Elapsed time: 00:08:14s.  Time for last 1,000,000:    4s.  Last read position: chr20:35,774,836
+INFO	2021-03-31 23:41:24	MarkDuplicates	Tracking 130663 as yet unmatched pairs. 2620 records in RAM.
+INFO	2021-03-31 23:41:28	MarkDuplicates	Read   109,000,000 records.  Elapsed time: 00:08:18s.  Time for last 1,000,000:    4s.  Last read position: chr20:59,007,046
+INFO	2021-03-31 23:41:28	MarkDuplicates	Tracking 130937 as yet unmatched pairs. 2481 records in RAM.
+INFO	2021-03-31 23:41:32	MarkDuplicates	Read   110,000,000 records.  Elapsed time: 00:08:22s.  Time for last 1,000,000:    3s.  Last read position: chr21:8,217,695
+INFO	2021-03-31 23:41:32	MarkDuplicates	Tracking 145997 as yet unmatched pairs. 19146 records in RAM.
+INFO	2021-03-31 23:41:35	MarkDuplicates	Read   111,000,000 records.  Elapsed time: 00:08:25s.  Time for last 1,000,000:    3s.  Last read position: chr21:26,170,589
+INFO	2021-03-31 23:41:35	MarkDuplicates	Tracking 132325 as yet unmatched pairs. 4547 records in RAM.
+INFO	2021-03-31 23:41:39	MarkDuplicates	Read   112,000,000 records.  Elapsed time: 00:08:29s.  Time for last 1,000,000:    4s.  Last read position: chr21:46,167,471
+INFO	2021-03-31 23:41:39	MarkDuplicates	Tracking 128505 as yet unmatched pairs. 290 records in RAM.
+INFO	2021-03-31 23:41:43	MarkDuplicates	Read   113,000,000 records.  Elapsed time: 00:08:33s.  Time for last 1,000,000:    4s.  Last read position: chr22:26,524,968
+INFO	2021-03-31 23:41:43	MarkDuplicates	Tracking 127822 as yet unmatched pairs. 4265 records in RAM.
+INFO	2021-03-31 23:41:47	MarkDuplicates	Read   114,000,000 records.  Elapsed time: 00:08:37s.  Time for last 1,000,000:    4s.  Last read position: chr22:38,484,050
+INFO	2021-03-31 23:41:47	MarkDuplicates	Tracking 126841 as yet unmatched pairs. 2943 records in RAM.
+INFO	2021-03-31 23:41:51	MarkDuplicates	Read   115,000,000 records.  Elapsed time: 00:08:41s.  Time for last 1,000,000:    4s.  Last read position: chr22:46,355,095
+INFO	2021-03-31 23:41:51	MarkDuplicates	Tracking 125089 as yet unmatched pairs. 865 records in RAM.
+INFO	2021-03-31 23:41:56	MarkDuplicates	Read   116,000,000 records.  Elapsed time: 00:08:45s.  Time for last 1,000,000:    4s.  Last read position: chrX:47,201,501
+INFO	2021-03-31 23:41:56	MarkDuplicates	Tracking 123616 as yet unmatched pairs. 8096 records in RAM.
+INFO	2021-03-31 23:42:00	MarkDuplicates	Read   117,000,000 records.  Elapsed time: 00:08:50s.  Time for last 1,000,000:    4s.  Last read position: chrX:109,682,788
+INFO	2021-03-31 23:42:00	MarkDuplicates	Tracking 124662 as yet unmatched pairs. 8844 records in RAM.
+INFO	2021-03-31 23:42:05	MarkDuplicates	Read   118,000,000 records.  Elapsed time: 00:08:54s.  Time for last 1,000,000:    4s.  Last read position: chrX:154,400,464
+INFO	2021-03-31 23:42:05	MarkDuplicates	Tracking 121360 as yet unmatched pairs. 5275 records in RAM.
+INFO	2021-03-31 23:42:11	MarkDuplicates	Read   119,000,000 records.  Elapsed time: 00:09:00s.  Time for last 1,000,000:    6s.  Last read position: chrM:2,345
+INFO	2021-03-31 23:42:11	MarkDuplicates	Tracking 209470 as yet unmatched pairs. 181971 records in RAM.
+INFO	2021-03-31 23:42:15	MarkDuplicates	Read   120,000,000 records.  Elapsed time: 00:09:04s.  Time for last 1,000,000:    4s.  Last read position: chrM:5,473
+INFO	2021-03-31 23:42:15	MarkDuplicates	Tracking 166364 as yet unmatched pairs. 138654 records in RAM.
+INFO	2021-03-31 23:42:19	MarkDuplicates	Read   121,000,000 records.  Elapsed time: 00:09:08s.  Time for last 1,000,000:    3s.  Last read position: chrM:6,812
+INFO	2021-03-31 23:42:19	MarkDuplicates	Tracking 275171 as yet unmatched pairs. 247361 records in RAM.
+INFO	2021-03-31 23:42:23	MarkDuplicates	Read   122,000,000 records.  Elapsed time: 00:09:12s.  Time for last 1,000,000:    4s.  Last read position: chrM:8,078
+INFO	2021-03-31 23:42:23	MarkDuplicates	Tracking 250617 as yet unmatched pairs. 222697 records in RAM.
+INFO	2021-03-31 23:42:27	MarkDuplicates	Read   123,000,000 records.  Elapsed time: 00:09:16s.  Time for last 1,000,000:    4s.  Last read position: chrM:9,456
+INFO	2021-03-31 23:42:27	MarkDuplicates	Tracking 146610 as yet unmatched pairs. 118465 records in RAM.
+INFO	2021-03-31 23:42:31	MarkDuplicates	Read   124,000,000 records.  Elapsed time: 00:09:21s.  Time for last 1,000,000:    4s.  Last read position: chrM:11,851
+INFO	2021-03-31 23:42:31	MarkDuplicates	Tracking 102094 as yet unmatched pairs. 73774 records in RAM.
+INFO	2021-03-31 23:42:35	MarkDuplicates	Read   125,000,000 records.  Elapsed time: 00:09:25s.  Time for last 1,000,000:    4s.  Last read position: chr11_KI270721v1_random:50,694
+INFO	2021-03-31 23:42:35	MarkDuplicates	Tracking 64933 as yet unmatched pairs. 46605 records in RAM.
+INFO	2021-03-31 23:42:39	MarkDuplicates	Read   126,000,000 records.  Elapsed time: 00:09:28s.  Time for last 1,000,000:    3s.  Last read position: chr11_KI270721v1_random:51,837
+INFO	2021-03-31 23:42:39	MarkDuplicates	Tracking 46901 as yet unmatched pairs. 28548 records in RAM.
+INFO	2021-03-31 23:42:42	MarkDuplicates	Read   127,000,000 records.  Elapsed time: 00:09:32s.  Time for last 1,000,000:    3s.  Last read position: chr11_KI270721v1_random:52,577
+INFO	2021-03-31 23:42:42	MarkDuplicates	Tracking 61319 as yet unmatched pairs. 42943 records in RAM.
+INFO	2021-03-31 23:42:45	MarkDuplicates	Read   128,000,000 records.  Elapsed time: 00:09:35s.  Time for last 1,000,000:    3s.  Last read position: chr22_KI270733v1_random:134,818
+INFO	2021-03-31 23:42:45	MarkDuplicates	Tracking 55279 as yet unmatched pairs. 37775 records in RAM.
+INFO	2021-03-31 23:42:48	MarkDuplicates	Read   129,000,000 records.  Elapsed time: 00:09:38s.  Time for last 1,000,000:    3s.  Last read position: chrUn_GL000220v1:153,459
+INFO	2021-03-31 23:42:48	MarkDuplicates	Tracking 43730 as yet unmatched pairs. 27417 records in RAM.
+INFO	2021-03-31 23:42:52	MarkDuplicates	Read   130,000,000 records.  Elapsed time: 00:09:42s.  Time for last 1,000,000:    3s.  Last read position: chr6_GL000250v2_alt:3,167,787
+INFO	2021-03-31 23:42:52	MarkDuplicates	Tracking 14755 as yet unmatched pairs. 423 records in RAM.
+INFO	2021-03-31 23:42:56	MarkDuplicates	Read   131,000,000 records.  Elapsed time: 00:09:45s.  Time for last 1,000,000:    3s.  Last read position: chr16_KI270853v1_alt:873,810
+INFO	2021-03-31 23:42:56	MarkDuplicates	Tracking 11939 as yet unmatched pairs. 1553 records in RAM.
+INFO	2021-03-31 23:42:59	MarkDuplicates	Read   132,000,000 records.  Elapsed time: 00:09:49s.  Time for last 1,000,000:    3s.  Last read position: chr21_KI270872v1_alt:52,445
+INFO	2021-03-31 23:42:59	MarkDuplicates	Tracking 9603 as yet unmatched pairs. 1612 records in RAM.
+INFO	2021-03-31 23:43:02	MarkDuplicates	Read   133,000,000 records.  Elapsed time: 00:09:52s.  Time for last 1,000,000:    3s.  Last read position: chr6_GL000251v2_alt:4,360,849
+INFO	2021-03-31 23:43:02	MarkDuplicates	Tracking 7446 as yet unmatched pairs. 242 records in RAM.
+INFO	2021-03-31 23:43:06	MarkDuplicates	Read   134,000,000 records.  Elapsed time: 00:09:55s.  Time for last 1,000,000:    3s.  Last read position: chr6_GL000252v2_alt:2,975,427
+INFO	2021-03-31 23:43:06	MarkDuplicates	Tracking 6448 as yet unmatched pairs. 674 records in RAM.
+INFO	2021-03-31 23:43:09	MarkDuplicates	Read   135,000,000 records.  Elapsed time: 00:09:58s.  Time for last 1,000,000:    3s.  Last read position: chr6_GL000253v2_alt:3,038,914
+INFO	2021-03-31 23:43:09	MarkDuplicates	Tracking 6367 as yet unmatched pairs. 858 records in RAM.
+INFO	2021-03-31 23:43:12	MarkDuplicates	Read   136,000,000 records.  Elapsed time: 00:10:02s.  Time for last 1,000,000:    3s.  Last read position: chr19_GL949750v2_alt:181,400
+INFO	2021-03-31 23:43:12	MarkDuplicates	Tracking 5895 as yet unmatched pairs. 1438 records in RAM.
+INFO	2021-03-31 23:43:15	MarkDuplicates	Read   137,000,000 records.  Elapsed time: 00:10:05s.  Time for last 1,000,000:    3s.  Last read position: chr6_GL000256v2_alt:1,793,682
+INFO	2021-03-31 23:43:15	MarkDuplicates	Tracking 2569 as yet unmatched pairs. 1351 records in RAM.
+INFO	2021-03-31 23:43:18	MarkDuplicates	Read 137909003 records. 0 pairs never matched.
+INFO	2021-03-31 23:43:46	MarkDuplicates	After buildSortedReadEndLists freeMemory: 7085824400; totalMemory: 11442061312; maxMemory: 16869490688
+INFO	2021-03-31 23:43:46	MarkDuplicates	Will retain up to 527171584 duplicate indices before spilling to disk.
+INFO	2021-03-31 23:43:47	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2021-03-31 23:43:59	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2021-03-31 23:44:27	MarkDuplicates	Sorting list of duplicate records.
+INFO	2021-03-31 23:44:29	MarkDuplicates	After generateDuplicateIndexes freeMemory: 7211912936; totalMemory: 11442061312; maxMemory: 16869490688
+INFO	2021-03-31 23:44:29	MarkDuplicates	Marking 37199759 records as duplicates.
+INFO	2021-03-31 23:44:29	MarkDuplicates	Found 427429 optical duplicate clusters.
+INFO	2021-03-31 23:44:29	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2021-03-31 23:46:15	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:45s.  Time for last 10,000,000:  105s.  Last read position: chr1:202,580,596
+INFO	2021-03-31 23:48:04	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:03:34s.  Time for last 10,000,000:  108s.  Last read position: chr3:48,609,259
+INFO	2021-03-31 23:49:47	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:05:18s.  Time for last 10,000,000:  103s.  Last read position: chr4:145,121,345
+INFO	2021-03-31 23:51:31	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:07:01s.  Time for last 10,000,000:  103s.  Last read position: chr7:1,502,916
+INFO	2021-03-31 23:53:18	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:08:48s.  Time for last 10,000,000:  107s.  Last read position: chr9:83,938,857
+INFO	2021-03-31 23:55:00	MarkDuplicates	Written    60,000,000 records.  Elapsed time: 00:10:31s.  Time for last 10,000,000:  102s.  Last read position: chr11:2,129,416
+INFO	2021-03-31 23:56:45	MarkDuplicates	Written    70,000,000 records.  Elapsed time: 00:12:15s.  Time for last 10,000,000:  104s.  Last read position: chr12:12,477,435
+INFO	2021-03-31 23:58:30	MarkDuplicates	Written    80,000,000 records.  Elapsed time: 00:14:01s.  Time for last 10,000,000:  105s.  Last read position: chr15:58,453,924
+INFO	2021-04-01 00:00:13	MarkDuplicates	Written    90,000,000 records.  Elapsed time: 00:15:43s.  Time for last 10,000,000:  102s.  Last read position: chr17:38,755,910
+INFO	2021-04-01 00:01:55	MarkDuplicates	Written   100,000,000 records.  Elapsed time: 00:17:25s.  Time for last 10,000,000:  101s.  Last read position: chr19:11,321,827
+INFO	2021-04-01 00:03:36	MarkDuplicates	Written   110,000,000 records.  Elapsed time: 00:19:07s.  Time for last 10,000,000:  101s.  Last read position: chr21:8,217,695
+INFO	2021-04-01 00:05:17	MarkDuplicates	Written   120,000,000 records.  Elapsed time: 00:20:47s.  Time for last 10,000,000:  100s.  Last read position: chrM:5,473
+INFO	2021-04-01 00:06:52	MarkDuplicates	Written   130,000,000 records.  Elapsed time: 00:22:22s.  Time for last 10,000,000:   94s.  Last read position: chr6_GL000250v2_alt:3,167,787
+INFO	2021-04-01 00:08:37	MarkDuplicates	Written   140,000,000 records.  Elapsed time: 00:24:07s.  Time for last 10,000,000:  105s.  Last read position: */*
+INFO	2021-04-01 00:08:46	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2021-04-01 00:08:46	MarkDuplicates	Duplicate Index cleanup.
+INFO	2021-04-01 00:08:46	MarkDuplicates	Getting Memory Stats.
+INFO	2021-04-01 00:08:46	MarkDuplicates	Before output close freeMemory: 310812880; totalMemory: 322961408; maxMemory: 16869490688
+INFO	2021-04-01 00:08:46	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2021-04-01 00:08:46	MarkDuplicates	After output close freeMemory: 101938448; totalMemory: 113246208; maxMemory: 16869490688
+[Thu Apr 01 00:08:46 CST 2021] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 35.62 minutes.
+Runtime.totalMemory()=113246208
+INFO	2021-04-01 00:08:47	ReorderSam	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    ReorderSam -INPUT aln_sorted_mdup.bam -OUTPUT aln_resorted_mdup.bam -REFERENCE /home/yuzj/References/GATK_hg38/hg38.fa -CREATE_INDEX TRUE
+**********
+
+
+ERROR: Unrecognized option: REFERENCE
+
+USAGE: ReorderSam [options]
+
+Documentation: http://broadinstitute.github.io/picard/command-line-overview.html#ReorderSam
+
+Not to be confused with SortSam which sorts a SAM or BAM file with a valid sequence dictionary, ReorderSam reorders
+reads in a SAM/BAM file to match the contig ordering in a provided reference file, as determined by exact name matching
+of contigs.  Reads mapped to contigs absent in the new reference are unmapped. Runs substantially faster if the input is
+an indexed BAM file.
+Example
+
+java -jar picard.jar ReorderSam \
+INPUT=sample.bam \
+OUTPUT=reordered.bam \
+SEQUENCE_DICTIONARY=reference_with_different_order.dict
+
+Version: 2.25.1
+
+
+Options:
+
+--help
+-h                            Displays options specific to this tool.
+
+--stdhelp
+-H                            Displays options specific to this tool AND options common to all Picard command line
+                              tools.
+
+--version                     Displays program version.
+
+INPUT=File
+I=File                        Input file (SAM or BAM) to extract reads from.  Required. 
+
+OUTPUT=File
+O=File                        Output file (SAM or BAM) to write extracted reads to.  Required. 
+
+SEQUENCE_DICTIONARY=File
+SD=File                       A Sequence Dictionary for the OUTPUT file (can be read from one of the following file
+                              types (SAM, BAM, VCF, BCF, Interval List, Fasta, or Dict)  Required. 
+
+ALLOW_INCOMPLETE_DICT_CONCORDANCE=Boolean
+S=Boolean                     If true, allows only a partial overlap of the original contigs with the new reference
+                              sequence contigs.  By default, this tool requires a corresponding contig in the new
+                              reference for each read contig  Default value: false. This option can be set to 'null' to
+                              clear the default value. Possible values: {true, false} 
+
+ALLOW_CONTIG_LENGTH_DISCORDANCE=Boolean
+U=Boolean                     If true, then permits mapping from a read contig to a new reference contig with the same
+                              name but a different length.  Highly dangerous, only use if you know what you are doing. 
+                              Default value: false. This option can be set to 'null' to clear the default value.
+                              Possible values: {true, false} 
+
+TMP_DIR=File                  One or more directories with space available to be used by this program for temporary
+                              storage of working files  Default value: null. This option may be specified 0 or more
+                              times. 
+
+VERBOSITY=LogLevel            Control verbosity of logging.  Default value: INFO. This option can be set to 'null' to
+                              clear the default value. Possible values: {ERROR, WARNING, INFO, DEBUG} 
+
+QUIET=Boolean                 Whether to suppress job-summary info on System.err.  Default value: false. This option can
+                              be set to 'null' to clear the default value. Possible values: {true, false} 
+
+VALIDATION_STRINGENCY=ValidationStringency
+                              Validation stringency for all SAM files read by this program.  Setting stringency to
+                              SILENT can improve performance when processing a BAM file in which variable-length data
+                              (read, qualities, tags) do not otherwise need to be decoded.  Default value: STRICT. This
+                              option can be set to 'null' to clear the default value. Possible values: {STRICT, LENIENT,
+                              SILENT} 
+
+COMPRESSION_LEVEL=Integer     Compression level for all compressed files created (e.g. BAM and VCF).  Default value: 5.
+                              This option can be set to 'null' to clear the default value. 
+
+MAX_RECORDS_IN_RAM=Integer    When writing files that need to be sorted, this will specify the number of records stored
+                              in RAM before spilling to disk. Increasing this number reduces the number of file handles
+                              needed to sort the file, and increases the amount of RAM needed.  Default value: 500000.
+                              This option can be set to 'null' to clear the default value. 
+
+CREATE_INDEX=Boolean          Whether to create an index when writing VCF or coordinate sorted BAM output.  Default
+                              value: false. This option can be set to 'null' to clear the default value. Possible
+                              values: {true, false} 
+
+CREATE_MD5_FILE=Boolean       Whether to create an MD5 digest for any BAM or FASTQ files created.    Default value:
+                              false. This option can be set to 'null' to clear the default value. Possible values:
+                              {true, false} 
+
+REFERENCE_SEQUENCE=File
+R=File                        Reference sequence file.  Default value: null. 
+
+GA4GH_CLIENT_SECRETS=String   Google Genomics API client_secrets.json file path.  Default value: client_secrets.json.
+                              This option can be set to 'null' to clear the default value. 
+
+USE_JDK_DEFLATER=Boolean
+USE_JDK_DEFLATER=Boolean      Use the JDK Deflater instead of the Intel Deflater for writing compressed output  Default
+                              value: false. This option can be set to 'null' to clear the default value. Possible
+                              values: {true, false} 
+
+USE_JDK_INFLATER=Boolean
+USE_JDK_INFLATER=Boolean      Use the JDK Inflater instead of the Intel Inflater for reading compressed input  Default
+                              value: false. This option can be set to 'null' to clear the default value. Possible
+                              values: {true, false} 
+
+OPTIONS_FILE=File             File of OPTION_NAME=value pairs.  No positional parameters allowed.  Unlike command-line
+                              options, unrecognized options are ignored.  A single-valued option set in an options file
+                              may be overridden by a subsequent command-line option.  A line starting with '#' is
+                              considered a comment.  Required. 
+
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR A USER ERROR has occurred (version 3.8-1-0-gf15c1c3ef): 
+##### ERROR
+##### ERROR This means that one or more arguments or inputs in your command are incorrect.
+##### ERROR The error message below tells you what is the problem.
+##### ERROR
+##### ERROR If the problem is an invalid argument, please check the online documentation guide
+##### ERROR (or rerun your command with --help) to view allowable command-line arguments for this tool.
+##### ERROR
+##### ERROR Visit our website and forum for extensive documentation and answers to 
+##### ERROR commonly asked questions https://software.broadinstitute.org/gatk
+##### ERROR
+##### ERROR Please do NOT post this error to the GATK forum unless you have really tried to fix it yourself.
+##### ERROR
+##### ERROR MESSAGE: Invalid command line: Malformed walker argument: Could not find walker with name: SplitNCigarReads
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR A USER ERROR has occurred (version 3.8-1-0-gf15c1c3ef): 
+##### ERROR
+##### ERROR This means that one or more arguments or inputs in your command are incorrect.
+##### ERROR The error message below tells you what is the problem.
+##### ERROR
+##### ERROR If the problem is an invalid argument, please check the online documentation guide
+##### ERROR (or rerun your command with --help) to view allowable command-line arguments for this tool.
+##### ERROR
+##### ERROR Visit our website and forum for extensive documentation and answers to 
+##### ERROR commonly asked questions https://software.broadinstitute.org/gatk
+##### ERROR
+##### ERROR Please do NOT post this error to the GATK forum unless you have really tried to fix it yourself.
+##### ERROR
+##### ERROR MESSAGE: Invalid command line: Malformed walker argument: Could not find walker with name: HaplotypeCaller
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR A USER ERROR has occurred (version 3.8-1-0-gf15c1c3ef): 
+##### ERROR
+##### ERROR This means that one or more arguments or inputs in your command are incorrect.
+##### ERROR The error message below tells you what is the problem.
+##### ERROR
+##### ERROR If the problem is an invalid argument, please check the online documentation guide
+##### ERROR (or rerun your command with --help) to view allowable command-line arguments for this tool.
+##### ERROR
+##### ERROR Visit our website and forum for extensive documentation and answers to 
+##### ERROR commonly asked questions https://software.broadinstitute.org/gatk
+##### ERROR
+##### ERROR Please do NOT post this error to the GATK forum unless you have really tried to fix it yourself.
+##### ERROR
+##### ERROR MESSAGE: Invalid command line: Malformed walker argument: Could not find walker with name: SelectVariants
+##### ERROR ------------------------------------------------------------------------------------------
+from /home/fuqc/1/tmp/Hep3B2-1-7_FRAS190069749-1a-merge.txt.err
