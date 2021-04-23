@@ -1,1 +1,3 @@
+The uploaded file is the annovar output of vcf files. We filter out exonic variants (grep exonic Hep3B2-1-7.hg38_multianno.txt > medguide (exonic).txt). 
 
+The original files is too big and cannot be uploaded. 
